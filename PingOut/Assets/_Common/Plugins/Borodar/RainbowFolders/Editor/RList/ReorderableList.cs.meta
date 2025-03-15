@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 3c77c665598f6d54bac611be2b2f7782
+timeCreated: 1434688391
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 143526
+  packageName: Rainbow Folders 2
+  packageVersion: 2.4.2
+  assetPath: Assets/Plugins/Borodar/RainbowFolders/Editor/RList/ReorderableList.cs
+  uploadId: 716027
