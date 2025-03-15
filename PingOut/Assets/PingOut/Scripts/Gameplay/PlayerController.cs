@@ -70,11 +70,6 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    void Update()
-    {
-
-    }
-
     [Button] 
     public void ResgisterWaitMove()
     {
@@ -89,7 +84,6 @@ public class PlayerController : MonoBehaviour
         historyPos = pos;
         playerHistory.Add(newOrder);
         historyTick += 1;
-
     }
 
     public void MoveToPos(PlayerPosition pos)
