@@ -15,7 +15,17 @@ public class PlayerController : TickElement
     public int Test { get; private set; }
 
 
-    public bool IsInRevers = false;
+    public bool IsInRevers {
+        get => isInRevers;
+        set
+        {
+            isInRevers = value;
+            transform.localScale = new Vector3(value ? -1 : 1, 1, 1);
+        }
+    }
+    private bool isInRevers = false;
+
+
     public bool HistoryIsInRevers = false;
     protected override void Awake()
     {
