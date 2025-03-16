@@ -1,0 +1,833 @@
+fileFormatVersion: 2
+guid: 9a59c39de75accd498ac610fd51f33d0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2528368490343000004
+    second: felix_CD_0
+  - first:
+      213: -7222957921040230672
+    second: felix_CD_1
+  - first:
+      213: -4001308581804425358
+    second: felix_CD_2
+  - first:
+      213: -72197927860988724
+    second: felix_CD_3
+  - first:
+      213: -6685373238866715605
+    second: felix_CD_4
+  - first:
+      213: 3330583833216856748
+    second: felix_CD_5
+  - first:
+      213: -6475944912273318718
+    second: felix_CD_6
+  - first:
+      213: 1913457014092883878
+    second: felix_CD_7
+  - first:
+      213: -2830177858425247920
+    second: felix_CD_8
+  - first:
+      213: 777284301860702370
+    second: felix_CD_9
+  - first:
+      213: 8573529614118122560
+    second: felix_CD_10
+  - first:
+      213: -546696134941022463
+    second: felix_CD_11
+  - first:
+      213: 1955455307683522314
+    second: felix_CD_12
+  - first:
+      213: 2538203658595740141
+    second: felix_CD_13
+  - first:
+      213: 3646608761040856462
+    second: felix_CD_14
+  - first:
+      213: -5241487157116575556
+    second: felix_CD_15
+  - first:
+      213: 7542481528209440182
+    second: felix_CD_16
+  - first:
+      213: 2628375974404335412
+    second: felix_CD_17
+  - first:
+      213: -6461504669371988518
+    second: felix_CD_18
+  - first:
+      213: -67492360884294287
+    second: felix_CD_19
+  - first:
+      213: 340121132100950967
+    second: felix_CD_20
+  - first:
+      213: -4304687634850982158
+    second: felix_CD_21
+  - first:
+      213: -1579647718629459954
+    second: felix_CD_22
+  - first:
+      213: -7067999921609125084
+    second: felix_CD_23
+  - first:
+      213: -4525270838036199661
+    second: felix_CD_24
+  - first:
+      213: 6141000631262301463
+    second: felix_CD_25
+  - first:
+      213: 6795004396095502088
+    second: felix_CD_26
+  - first:
+      213: 5808873578440706967
+    second: felix_CD_27
+  - first:
+      213: -6708960392888742058
+    second: felix_CD_28
+  - first:
+      213: 9045836571169414851
+    second: felix_CD_29
+  - first:
+      213: 7088333465687275970
+    second: felix_CD_30
+  - first:
+      213: -1596173474981090165
+    second: felix_CD_31
+  - first:
+      213: -4183948655074116346
+    second: felix_CD_32
+  - first:
+      213: 4341737553814058304
+    second: felix_CD_33
+  - first:
+      213: 2435268620992687570
+    second: felix_CD_34
+  - first:
+      213: 4811653959457714746
+    second: felix_CD_35
+  - first:
+      213: -616698491149693818
+    second: felix_CD_36
+  - first:
+      213: 5066410469434074835
+    second: felix_CD_37
+  - first:
+      213: -1659776454762919307
+    second: felix_CD_38
+  - first:
+      213: 3367632496016390956
+    second: felix_CD_39
+  - first:
+      213: -621750716864832692
+    second: felix_CD_40
+  - first:
+      213: -107222384682592683
+    second: felix_CD_41
+  - first:
+      213: -4717350992636528199
+    second: felix_CD_42
+  - first:
+      213: 3605535705437410165
+    second: felix_CD_43
+  - first:
+      213: -1776511483556690954
+    second: felix_CD_44
+  - first:
+      213: 3244292821619055687
+    second: felix_CD_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: felix_CD_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 426
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0bb8eac648038043888c5d5bbf3c04d
+      internalID: 1387165829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felix_CD_1
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 0
+        width: 426
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f93e30c0b06814a8499dbdba4686fa
+      internalID: -649197277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felix_CD_2
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 0
+        width: 426
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15efea682f0a3a447837574413d7cf30
+      internalID: -748641435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felix_CD_3
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 0
+        width: 426
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a4b142961f84f419659527cced35dd
+      internalID: -556042301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felix_CD_4
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 0
+        width: 426
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6897b2fbf95bf3a40aee4736cfc582b5
+      internalID: 2101309029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felix_CD_5
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 0
+        width: 426
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede9acf60ec8a1f4ba2a0dad1f5bef5e
+      internalID: 291607408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felix_CD_6
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 0
+        width: 426
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa586369cf757cd46a70fcde3605b51b
+      internalID: -1228076157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felix_CD_7
+      rect:
+        serializedVersion: 2
+        x: 2982
+        y: 0
+        width: 426
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9628718502f4b4fbde4b0a765d35b0
+      internalID: -679062513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felix_CD_8
+      rect:
+        serializedVersion: 2
+        x: 3408
+        y: 0
+        width: 426
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95cb31477725f948b8a6f3a79aaa213
+      internalID: -927064473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felix_CD_9
+      rect:
+        serializedVersion: 2
+        x: 3834
+        y: 0
+        width: 426
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d743c351046b1b242b23d0f98267d265
+      internalID: -1015682269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felix_CD_10
+      rect:
+        serializedVersion: 2
+        x: 4260
+        y: 0
+        width: 426
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d2d2a956308b24ab8f9f2057495028
+      internalID: 150621243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felix_CD_11
+      rect:
+        serializedVersion: 2
+        x: 4686
+        y: 0
+        width: 426
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5bdb66ee43bb354182f7e1b4bf45ec0
+      internalID: 1860903478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felix_CD_12
+      rect:
+        serializedVersion: 2
+        x: 5112
+        y: 0
+        width: 426
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1af879cff20c4c4d904b47735a45ec4
+      internalID: 1904211607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felix_CD_13
+      rect:
+        serializedVersion: 2
+        x: 5538
+        y: 0
+        width: 426
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6866738df1b9040b9b6dcf41f714fa
+      internalID: -1505220466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felix_CD_14
+      rect:
+        serializedVersion: 2
+        x: 5964
+        y: 0
+        width: 426
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6e5b6497e95644a9dbd60c305a757e
+      internalID: 902894762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felix_CD_15
+      rect:
+        serializedVersion: 2
+        x: 6390
+        y: 0
+        width: 426
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09cd7d4202fc2d6488fb2f8f6fd8891d
+      internalID: 342315310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felix_CD_16
+      rect:
+        serializedVersion: 2
+        x: 6816
+        y: 0
+        width: 426
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ab4411c07deef4caeb55bc91a3f3a2
+      internalID: -560311251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felix_CD_17
+      rect:
+        serializedVersion: 2
+        x: 7242
+        y: 0
+        width: 426
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1280a2626ecda4383d04ea9a9fd5fe
+      internalID: -23745988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felix_CD_18
+      rect:
+        serializedVersion: 2
+        x: 7668
+        y: 0
+        width: 426
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9f440e4e3c47e4db8b21a4eaa73bb7
+      internalID: -62682679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felix_CD_19
+      rect:
+        serializedVersion: 2
+        x: 8094
+        y: 0
+        width: 426
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c46e28419ff5f40ab98f789bfb7cf7
+      internalID: 473903060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felix_CD_20
+      rect:
+        serializedVersion: 2
+        x: 8520
+        y: 0
+        width: 426
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb381efa355d97b499231f98ebdbd486
+      internalID: -1268904993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felix_CD_21
+      rect:
+        serializedVersion: 2
+        x: 8946
+        y: 0
+        width: 426
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a495b4c7aa33df84bbfa2d851f719b55
+      internalID: -760939226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felix_CD_22
+      rect:
+        serializedVersion: 2
+        x: 9372
+        y: 0
+        width: 426
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e22c850a7d61a4eb21adf28c57a275
+      internalID: 1295472195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: felix_CD_23
+      rect:
+        serializedVersion: 2
+        x: 9798
+        y: 0
+        width: 426
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cea6a8eed6cf7b4c8f43cf023ce4f6b
+      internalID: -450592281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 518993717bda9be428b4ae7e9cb05447
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      felix_CD_0: 1387165829
+      felix_CD_1: -649197277
+      felix_CD_10: 150621243
+      felix_CD_11: 1860903478
+      felix_CD_12: 1904211607
+      felix_CD_13: -1505220466
+      felix_CD_14: 902894762
+      felix_CD_15: 342315310
+      felix_CD_16: -560311251
+      felix_CD_17: -23745988
+      felix_CD_18: -62682679
+      felix_CD_19: 473903060
+      felix_CD_2: -748641435
+      felix_CD_20: -1268904993
+      felix_CD_21: -760939226
+      felix_CD_22: 1295472195
+      felix_CD_23: -450592281
+      felix_CD_3: -556042301
+      felix_CD_4: 2101309029
+      felix_CD_5: 291607408
+      felix_CD_6: -1228076157
+      felix_CD_7: -679062513
+      felix_CD_8: -927064473
+      felix_CD_9: -1015682269
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

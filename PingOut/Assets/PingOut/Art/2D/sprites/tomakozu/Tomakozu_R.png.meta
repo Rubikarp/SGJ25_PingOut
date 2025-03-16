@@ -1,0 +1,818 @@
+fileFormatVersion: 2
+guid: 39f45f6a049deda4ba290490a8613490
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6247901033033346950
+    second: Tomakozu_R_0
+  - first:
+      213: 5796648844364936439
+    second: Tomakozu_R_1
+  - first:
+      213: 1925846533156459685
+    second: Tomakozu_R_2
+  - first:
+      213: -5130602779916066720
+    second: Tomakozu_R_3
+  - first:
+      213: 8078745823261554081
+    second: Tomakozu_R_4
+  - first:
+      213: -2494254135232234642
+    second: Tomakozu_R_5
+  - first:
+      213: -7111255657675118682
+    second: Tomakozu_R_6
+  - first:
+      213: -7369138730700840690
+    second: Tomakozu_R_7
+  - first:
+      213: 2949123921100393996
+    second: Tomakozu_R_8
+  - first:
+      213: -3845149098507486116
+    second: Tomakozu_R_9
+  - first:
+      213: 2211085821992996294
+    second: Tomakozu_R_10
+  - first:
+      213: 1998266547699441020
+    second: Tomakozu_R_11
+  - first:
+      213: -983934864411618057
+    second: Tomakozu_R_12
+  - first:
+      213: -6776182220461060608
+    second: Tomakozu_R_13
+  - first:
+      213: 2331928265596627084
+    second: Tomakozu_R_14
+  - first:
+      213: 7645013177105511858
+    second: Tomakozu_R_15
+  - first:
+      213: -2357345104351702999
+    second: Tomakozu_R_16
+  - first:
+      213: -2359704182838552026
+    second: Tomakozu_R_17
+  - first:
+      213: -7381253730495462088
+    second: Tomakozu_R_18
+  - first:
+      213: 7236354680636365506
+    second: Tomakozu_R_19
+  - first:
+      213: -7396653590583097111
+    second: Tomakozu_R_20
+  - first:
+      213: 1338094535014262745
+    second: Tomakozu_R_21
+  - first:
+      213: 4229162268539778004
+    second: Tomakozu_R_22
+  - first:
+      213: 3734683829474595323
+    second: Tomakozu_R_23
+  - first:
+      213: 3679194130693546995
+    second: Tomakozu_R_24
+  - first:
+      213: 2044272245763403001
+    second: Tomakozu_R_25
+  - first:
+      213: -3345739810432782740
+    second: Tomakozu_R_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tomakozu_R_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 146
+        width: 84
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a70504efc1ffa49a0800000000000000
+      internalID: -6247901033033346950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomakozu_R_1
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 53
+        width: 251
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f4fc087965d17050800000000000000
+      internalID: 5796648844364936439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomakozu_R_2
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 146
+        width: 83
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a455b4e73bf9ba10800000000000000
+      internalID: 1925846533156459685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomakozu_R_3
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 53
+        width: 251
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 060a87b64ff6cc8b0800000000000000
+      internalID: -5130602779916066720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomakozu_R_4
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 148
+        width: 82
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a5fc22f5887d1070800000000000000
+      internalID: 8078745823261554081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomakozu_R_5
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 53
+        width: 251
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6bfee14411a26dd0800000000000000
+      internalID: -2494254135232234642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomakozu_R_6
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 53
+        width: 283
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a7a94908aebf4d90800000000000000
+      internalID: -7111255657675118682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomakozu_R_7
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 53
+        width: 251
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e01e0082e5f8bb990800000000000000
+      internalID: -7369138730700840690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomakozu_R_8
+      rect:
+        serializedVersion: 2
+        x: 2225
+        y: 53
+        width: 251
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ecbc3c4946de820800000000000000
+      internalID: 2949123921100393996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomakozu_R_9
+      rect:
+        serializedVersion: 2
+        x: 2651
+        y: 53
+        width: 251
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c3c03744943aac0800000000000000
+      internalID: -3845149098507486116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomakozu_R_10
+      rect:
+        serializedVersion: 2
+        x: 3078
+        y: 53
+        width: 251
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd8bcb17da5fae10800000000000000
+      internalID: 2211085821992996294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomakozu_R_11
+      rect:
+        serializedVersion: 2
+        x: 3504
+        y: 53
+        width: 251
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ddb2e76d44bbb10800000000000000
+      internalID: 1998266547699441020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomakozu_R_12
+      rect:
+        serializedVersion: 2
+        x: 3931
+        y: 53
+        width: 251
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f49f94347c5852f0800000000000000
+      internalID: -983934864411618057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomakozu_R_13
+      rect:
+        serializedVersion: 2
+        x: 4358
+        y: 53
+        width: 251
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ec9181c2a26f1a0800000000000000
+      internalID: -6776182220461060608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomakozu_R_14
+      rect:
+        serializedVersion: 2
+        x: 4784
+        y: 53
+        width: 251
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c886498076cac5020800000000000000
+      internalID: 2331928265596627084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomakozu_R_15
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 53
+        width: 262
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b5fd84cafa881a60800000000000000
+      internalID: 7645013177105511858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomakozu_R_16
+      rect:
+        serializedVersion: 2
+        x: 5620
+        y: 53
+        width: 269
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9205c1a0e17094fd0800000000000000
+      internalID: -2357345104351702999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomakozu_R_17
+      rect:
+        serializedVersion: 2
+        x: 6045
+        y: 53
+        width: 271
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a97e64c85a04fd0800000000000000
+      internalID: -2359704182838552026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomakozu_R_18
+      rect:
+        serializedVersion: 2
+        x: 6471
+        y: 53
+        width: 271
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8358ac4f6d4809990800000000000000
+      internalID: -7381253730495462088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomakozu_R_19
+      rect:
+        serializedVersion: 2
+        x: 6898
+        y: 53
+        width: 271
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cad0100e32bc6460800000000000000
+      internalID: 7236354680636365506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomakozu_R_20
+      rect:
+        serializedVersion: 2
+        x: 7324
+        y: 53
+        width: 271
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e84dae9fbec95990800000000000000
+      internalID: -7396653590583097111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomakozu_R_21
+      rect:
+        serializedVersion: 2
+        x: 7751
+        y: 53
+        width: 271
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d7aa6bd3edd19210800000000000000
+      internalID: 1338094535014262745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomakozu_R_22
+      rect:
+        serializedVersion: 2
+        x: 8178
+        y: 53
+        width: 271
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d37cc91da001ba30800000000000000
+      internalID: 4229162268539778004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomakozu_R_23
+      rect:
+        serializedVersion: 2
+        x: 8604
+        y: 53
+        width: 271
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf19a3cd72344d330800000000000000
+      internalID: 3734683829474595323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomakozu_R_24
+      rect:
+        serializedVersion: 2
+        x: 9031
+        y: 53
+        width: 271
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3e0b3919f1f0330800000000000000
+      internalID: 3679194130693546995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomakozu_R_25
+      rect:
+        serializedVersion: 2
+        x: 9458
+        y: 53
+        width: 271
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fceae8c6c6be5c10800000000000000
+      internalID: 2044272245763403001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomakozu_R_26
+      rect:
+        serializedVersion: 2
+        x: 9884
+        y: 53
+        width: 271
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e65407e5b8191d0800000000000000
+      internalID: -3345739810432782740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
