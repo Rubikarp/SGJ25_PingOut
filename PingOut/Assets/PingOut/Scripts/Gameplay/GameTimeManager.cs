@@ -1,10 +1,28 @@
 using NaughtyAttributes;
+using System.Linq;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
 public class GameTimeManager : Singleton<GameTimeManager>
 {
     public const float TICK_DURATION = .2f;
+
+    public PlayerController playerController;
+    public PlayerController iaController;
+
+    private void Start()
+    {
+        playerController.onHistoryChange += (OnHistoryChange);
+        iaController.onHistoryChange += (OnHistoryChange);
+    }
+
+    private void OnHistoryChange(List<GameCommand> arg0)
+    {
+        var playerSum = playerController.elementHistory.Select(command => command.Duration).Sum();
+        var iaSum = playerController.elementHistory.Select(x => x.Duration).Sum();
+        OnMaxTimeChange?.Invoke(Mathf.Max(playerSum, iaSum));
+    }
 
     public int CurrentTick
     {
@@ -33,6 +51,7 @@ public class GameTimeManager : Singleton<GameTimeManager>
     public static UnityAction<int, int> OnTickChange;
 
     public UnityEvent<float> OnTickRefresh;
+    public UnityEvent<float> OnMaxTimeChange;
 
     [Button] public void NextTick() => CurrentTick++;
     [Button] public void PrevTick() => CurrentTick--;

@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      flip_button_0: 5751850766638404430
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

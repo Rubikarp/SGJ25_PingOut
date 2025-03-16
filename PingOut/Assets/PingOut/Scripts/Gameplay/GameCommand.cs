@@ -235,7 +235,7 @@ public class ShootCommand : GameCommand
         {
             //Nothing
         }
-        if (endTick < tickTime)
+        if (endTick + 1 < tickTime)
         {
             ballRef.OutAtPos(finishPos);
         }
@@ -292,7 +292,7 @@ public class PrepareShootCommand : GameCommand
 
     public override void RefreshToTick(int tickTime)
     {
-        if (tickTime == endTick - 1)
+        if (tickTime == endTick)
         {
             playerRef.TryShoot(this);
         }

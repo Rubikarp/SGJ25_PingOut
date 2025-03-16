@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
@@ -52,8 +52,10 @@ public abstract class TickElement : MonoBehaviour
         {
             //Move Time Forward
             var incommingOrder = elementHistory.Where(x => x.startTick <= currentTick).OrderBy(x => x.startTick).ToList();
-            if (incommingOrder.Count <= 0)
+            if (incommingOrder.Count <= 0 || incommingOrder.Last().endTick == currentTick)
             {
+                if (this is BallController) return;
+
                 //Add waiting order
                 RegisterOrder(new EmptyCommand(currentTick));
                 return;
