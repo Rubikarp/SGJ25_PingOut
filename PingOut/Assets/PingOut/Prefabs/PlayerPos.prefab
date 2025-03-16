@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 6603213239298304365}
   - component: {fileID: 3252836929846656799}
-  - component: {fileID: 5922786431784414859}
   - component: {fileID: 3872880283932787327}
+  - component: {fileID: 4815043231489498413}
   m_Layer: 0
-  m_Name: GamePos
+  m_Name: PlayerPos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -89,21 +89,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5922786431784414859
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5344351516406353234}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6af4935266258b44cbcab00e3491f629, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnTouchPos:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!58 &3872880283932787327
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -140,3 +125,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
+--- !u!114 &4815043231489498413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5344351516406353234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be256d6f8fa860a41a046104bebb37f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnTouchPos:
+    m_PersistentCalls:
+      m_Calls: []

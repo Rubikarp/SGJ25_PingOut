@@ -188,7 +188,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81678bf898ede8d4ab6118cc2a4171ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shootPos: {fileID: 0}
-  shootTick: 0
-  aimPos: {fileID: 0}
-  tickToDestination: 0
+  historyTick: 0
+  historyPos: {fileID: 0}
+  elementHistoryVisual: []
+  currentPos: {fileID: 0}
+  gameTime: {fileID: 0}
+  iaLeft: {fileID: 0}
+  iaCenter: {fileID: 0}
+  iaRight: {fileID: 0}
+  playerLeft: {fileID: 0}
+  playerCenter: {fileID: 0}
+  playerRight: {fileID: 0}
+  shootType: 1

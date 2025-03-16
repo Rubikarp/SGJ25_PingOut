@@ -11,6 +11,11 @@ public class BasicSceneManagement : MonoBehaviour
 	{
 		SceneManager.LoadScene(scene, LoadSceneMode.Single);
 	}
+    [Button]
+    public void ReLoadScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex, LoadSceneMode.Single);
+    }
     public void LoadSceneIn(float sec)
     {
 		Invoke("LoadScene", sec);

@@ -2,139 +2,81 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.Events;
 
-public class BallController : MonoBehaviour
+public class BallController : TickElement
 {
-    public int historyTick = 0;
-    public PlayerPosition historyPos;
-
-    public List<TickAction> ballHistory = new List<TickAction>();
-    public List<string> ballHistoryVisual = new List<string>();
-
-    public PlayerPosition[] playerPoses = null;
-    public PlayerPosition currentPos = null;
-
-    public GameTimeManager gameTime = null;
-
-
-    private void Awake()
+    public static BallController Instance
     {
-        gameTime = GameTimeManager.Instance;
-        GameTimeManager.OnTickChange += OnTickChange;
+        get
+        {
+            if (instance == null)
+                instance = FindFirstObjectByType<BallController>();
+
+            return instance;
+        }
+    }
+    private static BallController instance;
+
+    public UnityEvent onWin;
+    public UnityEvent onLoose;
+
+    public ElementPosition iaLeft;
+    public ElementPosition iaCenter;
+    public ElementPosition iaRight;
+    public ElementPosition playerLeft;
+    public ElementPosition playerCenter;
+    public ElementPosition playerRight;
+
+    public ElementPosition[] playerPoses => new ElementPosition[] { playerLeft, playerCenter, playerRight, iaLeft, iaCenter, iaRight };
+    public EShootType shootType;
+
+    protected override void Awake()
+    {
+        base.Awake();
 
         historyPos = currentPos;
-        foreach (PlayerPosition p in playerPoses)
+        foreach (ElementPosition p in playerPoses)
         {
             p.OnTouchPos.AddListener(TryMoveToPos);
         }
-    }
 
-    [Button]
-    private void OnValidate()
-    {
-        ballHistoryVisual = new List<string>(ballHistory.Count);
-        for (int i = 0; i < ballHistory.Count; i++)
+        if (instance == null) instance = this;
+        else if (instance != this)
         {
-            ballHistoryVisual.Add(ballHistory[i].DebugText());
+            Destroy(gameObject);
+            return;
         }
     }
-
-    private void OnTickChange(int previousTick, int currentTick)
+    protected virtual void OnDestroy()
     {
-
-        if (previousTick == currentTick) return;
-        if (previousTick < currentTick)
-        {
-            //Move Time Forward
-            var incommingOrder = ballHistory.Where(x => x.startTick <= currentTick).OrderBy(x => x.startTick).ToList();
-            if (incommingOrder.Count <= 0)
-            {
-                Debug.Log("No order available");
-                return;
-            }
-
-            incommingOrder.Last().RefreshToTick(currentTick);
-        }
-        else
-        {
-            // Move Time Backward
-            var previousOrder = ballHistory.Where(x => x.startTick <= currentTick).OrderBy(x => x.startTick).ToList();
-            if (previousOrder.Count <= 0)
-            {
-                Debug.Log("No order available");
-                return;
-            }
-
-            previousOrder.Last().RefreshToTick(currentTick);
-        }
-
+        if (instance == this) instance = null;
     }
 
-    [Button]
-    public void ResgisterWaitMove()
+    public void TryMoveToPos(ElementPosition pos)
     {
-        var newOrder = new OrderEmpty(historyTick);
-        ballHistory.Add(newOrder);
-        historyTick += 1;
-    }
-
-    public void TryMoveToPos(PlayerPosition pos)
-    {
-        var newOrder = new OrderShoot(historyTick, 3, historyPos, pos, this);
+        var newOrder = new ShootCommand(historyTick, EShootType.Coupe, 0, historyPos, pos, this);
         historyPos = pos;
-        ballHistory.Add(newOrder);
-        historyTick += 3;
+        RegisterOrder(newOrder);
     }
 
     public void MoveToPos(Vector3 pos) => transform.position = pos;
-
-    public void MoveToPos(PlayerPosition pos) => MoveToPos(pos.transform.position);
-
-    public class OrderShoot : TickAction
+    public void MoveToPos(ElementPosition pos) => MoveToPos(pos.transform.position);
+    public void OutAtPos(ElementPosition pos)
     {
-        public PlayerPosition beginPos;
-        public PlayerPosition finishPos;
+        Debug.Log($"Ball Out at {pos.name}");
 
-        public BallController ballRef;
-
-        public override void RefreshToTick(int tickTime)
+        if (pos == iaLeft || pos == iaCenter || pos == iaRight)
         {
-            if (tickTime < startTick)
-            {
-
-            }
-            else if (tickTime == startTick)
-            {
-                ballRef.MoveToPos(beginPos);
-            }
-            else if (tickTime > startTick && tickTime <= endTick)
-            {
-                float t = (float)(tickTime - startTick) / (float)(endTick - startTick) ;
-                var pos = Vector3.Lerp(beginPos.transform.position, finishPos.transform.position, t);
-                ballRef.MoveToPos(pos);
-            }
-            else if (tickTime == endTick)
-            {
-                ballRef.MoveToPos(finishPos);
-            }
-            else
-            if (tickTime > endTick)
-            {
-
-            }
+            onWin?.Invoke();
         }
-
-        public override string DebugText() => $"Move from {beginPos.name} to {finishPos.name} at {startTick}";
-
-        public OrderShoot(int startTick, int tickDuration, PlayerPosition beginPos, PlayerPosition endPos, BallController ballRef)
+        else if (pos == playerLeft || pos == playerCenter || pos == playerRight)
         {
-            this.startTick = startTick;
-            this.endTick = startTick + tickDuration;
-
-            this.beginPos = beginPos;
-            this.finishPos = endPos;
-
-            this.ballRef = ballRef;
+            onLoose?.Invoke();
+        }
+        else
+        {
+            Debug.LogError("Ball Out at unknown position");
         }
     }
 }

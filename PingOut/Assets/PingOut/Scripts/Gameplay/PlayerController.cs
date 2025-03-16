@@ -1,160 +1,153 @@
-using System.Linq; 
+using System.Linq;
 using UnityEngine;
 using NaughtyAttributes;
 using System.Collections.Generic;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : TickElement
 {
-    public int historyTick = 0;
-    public PlayerPosition historyPos;
+    public ElementPosition[] playerPoses => new ElementPosition[] { posRR, posR, posL, posLL };
+    public ElementPosition posRR;
+    public ElementPosition posR;
+    public ElementPosition posL;
+    public ElementPosition posLL;
 
-    public List<TickAction> playerHistory = new List<TickAction>();
-    public List<string> playerHistoryVisual = new List<string>();
-
-    public PlayerPosition[] playerPoses = null;
-    public PlayerPosition currentPos = null;
-
-    public GameTimeManager gameTime = null;
+    [field: SerializeField]
+    public int Test { get; private set; }
 
 
-    private void Awake()
+    public bool IsInRevers = false;
+
+    protected override void Awake()
     {
-        gameTime = GameTimeManager.Instance;
-        GameTimeManager.OnTickChange += OnTickChange;
+        base.Awake();
 
         historyPos = currentPos;
-        foreach (PlayerPosition p in playerPoses)
+        foreach (ElementPosition p in playerPoses)
         {
             p.OnTouchPos.AddListener(TryMoveToPos);
         }
     }
 
     [Button]
-    private void OnValidate()
-    {
-        playerHistoryVisual = new List<string>(playerHistory.Count);
-        for (int i = 0; i < playerHistory.Count; i++)
-        {
-            playerHistoryVisual.Add(playerHistory[i].DebugText());
-        }
-    }
-
-    private void OnTickChange(int previousTick, int currentTick)
-    {
-
-        if (previousTick == currentTick) return;
-        if(previousTick < currentTick)
-        {
-            //Move Time Forward
-            var incommingOrder = playerHistory.Where(x => x.startTick >= previousTick).OrderBy(x => x.startTick).ToList();
-            if (incommingOrder.Count <= 0)
-            {
-                Debug.Log("No order available");
-                return;
-            }
-
-            incommingOrder.First().RefreshToTick(currentTick);
-        }
-        else
-        {
-            // Move Time Backward
-            var previousOrder = playerHistory.Where(x => x.startTick <= currentTick).OrderBy(x => x.startTick).ToList();
-            if (previousOrder.Count <= 0)
-            {
-                Debug.Log("No order available");
-                return;
-            }
-
-            previousOrder.Last().RefreshToTick(currentTick);
-        }
-
-    }
-
-    [Button] 
     public void ResgisterWaitMove()
     {
-        var newOrder = new OrderEmpty(historyTick);
-        playerHistory.Add(newOrder);
-        historyTick += 1;
+        var newOrder = new EmptyCommand(historyTick);
+        RegisterOrder(newOrder);
     }
 
-    public void TryMoveToPos(PlayerPosition pos)
+    public void PrepareShoot(int enumValue)
     {
-        var newOrder = new OrderMovement(historyTick, historyPos, pos, this);
+        var newOrder = new PrepareShootCommand(historyTick, (EShootType)enumValue, this);
+        RegisterOrder(newOrder);
+    }
+    public void TryMoveToPos(ElementPosition pos)
+    {
+        //Check les distances et si même position
+        //TODO 
+
+        var newOrder = new MovementCommand(historyTick, historyPos, pos, this);
         historyPos = pos;
-        playerHistory.Add(newOrder);
-        historyTick += 1;
+        RegisterOrder(newOrder);
     }
-
-    public void MoveToPos(PlayerPosition pos)
+    public void TryShoot(PrepareShootCommand shootPrep)
     {
-        transform.position = pos.transform.position;
-    }
-}
-
-public class OrderEmpty : TickAction
-{
-    public override void RefreshToTick(int tickTime)
-    {
-        Debug.Log("Wait Order");
-    }
-
-    public override string DebugText() => $"Wait order at {startTick}";
-
-    public OrderEmpty(int startTick)
-    {
-        this.startTick = startTick;
-        this.endTick = startTick + 1;
-    }
-}
-public class OrderMovement : TickAction
-{
-    public PlayerPosition beginPos;
-    public PlayerPosition finishPos;
-
-    public PlayerController playerRef;
-
-    public override void RefreshToTick(int tickTime)
-    {
-        if (tickTime < startTick)
+        var ball = BallController.Instance;
+        var lastBallCommand = ball.elementHistory.LastOrDefault(x => x is ShootCommand) as ShootCommand;
+        if (lastBallCommand != null)
         {
+            Debug.LogWarning("create fake shoot");
+            lastBallCommand = new ShootCommand(historyTick, EShootType.TopSpin, 0, ball.iaCenter, ball.playerCenter, ball);
+        }
+        var shootStartPos = lastBallCommand.finishPos;
 
-        }
-        else if (tickTime == startTick)
+        //TODO : check ball pos + revert ou droit
+        bool touchBallInTime = shootPrep.endTick == historyTick;
+        if (!touchBallInTime)
         {
-            playerRef.MoveToPos(beginPos);
+            Debug.LogError($"Good in time start at {historyTick} but ball is here at {shootPrep.endTick}");
+            return;
         }
-        else if (tickTime == endTick)
-        {
-            playerRef.MoveToPos(finishPos);
-        }
-        else 
-        if (tickTime > endTick)
-        {
 
+        //Define if good position
+        bool validPos = false;
+        bool optimalPos = false;
+        int posIndex = playerPoses.ToList().IndexOf(currentPos);
+
+        //Define where to shoot
+        var shootEndPos = ball.iaCenter;
+        if (shootStartPos == ball.iaLeft)
+        {
+            shootEndPos = IsInRevers ? ball.playerCenter : ball.playerRight;
+            validPos = posIndex == 0 || posIndex == 1;
+            if (validPos)
+            {
+                optimalPos = IsInRevers ? posIndex == 0 : posIndex == 1;
+            }
         }
+        else
+        if (shootStartPos == ball.iaCenter)
+        {
+            shootEndPos = IsInRevers ? ball.playerLeft : ball.playerRight;
+            validPos = posIndex == 1 || posIndex == 2;
+            if (validPos)
+            {
+                optimalPos = IsInRevers ? posIndex == 1 : posIndex == 2;
+            }
+        }
+        else
+        if (shootStartPos == ball.iaRight)
+        {
+            shootEndPos = IsInRevers ? ball.playerLeft : ball.playerCenter;
+            validPos = posIndex == 2 || posIndex == 3;
+            if (validPos)
+            {
+                optimalPos = IsInRevers ? posIndex == 2 : posIndex == 3;
+            }
+        }
+        else
+        if (shootStartPos == ball.playerLeft)
+        {
+            shootEndPos = IsInRevers ? ball.iaRight : ball.iaCenter;
+
+            validPos = posIndex == 0 || posIndex == 1;
+            if (validPos)
+            {
+                optimalPos = IsInRevers ? posIndex == 1 : posIndex == 0;
+            }
+        }
+        else
+        if (shootStartPos == ball.playerCenter)
+        {
+            shootEndPos = IsInRevers ? ball.iaRight : ball.iaLeft;
+            validPos = posIndex == 1 || posIndex == 2;
+            if (validPos)
+            {
+                optimalPos = IsInRevers ? posIndex == 2 : posIndex == 1;
+            }
+        }
+        else
+        if (shootStartPos == ball.playerRight)
+        {
+            shootEndPos = IsInRevers ? ball.iaCenter : ball.iaLeft;
+            validPos = posIndex == 2 || posIndex == 3;
+            if (validPos)
+            {
+                optimalPos = IsInRevers ? posIndex == 3 : posIndex == 2;
+            }
+        }
+
+        int shootConfrontation = GameCommand.ShootConfrontation(ball.shootType, shootPrep.shootType);
+        int avantage = shootConfrontation + (optimalPos ? 1 : 0);
+        var newOrder = new ShootCommand(historyTick, shootPrep.shootType, avantage, lastBallCommand.finishPos, shootEndPos, ball);
+        ball.RegisterOrder(newOrder);
     }
-
-    public override string DebugText() => $"Move from {beginPos.name} to {finishPos.name} at {startTick}";
-
-    public OrderMovement(int startTick, PlayerPosition beginPos, PlayerPosition endPos, PlayerController controller)
+    public void FlipIsRevers()
     {
-        this.startTick = startTick;
-        this.endTick = startTick + 1;
-
-        this.beginPos = beginPos;
-        this.finishPos = endPos;
-
-        this.playerRef = controller;
+        var newOrder = new SideFlipCommand(historyTick, !IsInRevers, this);
+        RegisterOrder(newOrder);
     }
-}
 
-public abstract class TickAction
-{
-    public int startTick { get; set; }
-    public int endTick { get; set; }
-
-    public abstract void RefreshToTick(int relativeTickTime);
-    public abstract string DebugText();
+    public void MoveToPos(Vector3 pos) => transform.position = pos;
+    public void MoveToPos(ElementPosition pos) => MoveToPos(pos.transform.position);
 
 }
