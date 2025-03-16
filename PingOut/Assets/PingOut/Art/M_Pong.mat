@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_FlipBook
+  m_Name: M_Pong
   m_Shader: {fileID: -6465566751694194690, guid: ba8460137252fd6438d842139ed8606b, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -37,6 +37,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 5e3a955c40976594e8f3bd86a3af9641, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_669b3df996674faf99e94acf7f3276d8_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: dffef66376be4fa480fb02b19edbe903, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -55,12 +59,21 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AnimDuration: 16
-    - _Height: 4
+    - _AnimDuration: 10
+    - _ColorMask: 15
+    - _Height: 5
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Width: 4
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UIMaskSoftnessX: 1
+    - _UIMaskSoftnessY: 1
+    - _Width: 2
     - _frameRate: 24
-    m_Colors: []
+    m_Colors:
+    - _ClipRect: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

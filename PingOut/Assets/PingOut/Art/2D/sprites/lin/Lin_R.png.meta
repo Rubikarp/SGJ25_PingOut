@@ -1,0 +1,818 @@
+fileFormatVersion: 2
+guid: 697c80fd21cba3f4b8b3969edd7e44f0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1082707920611496426
+    second: Lin_R_0
+  - first:
+      213: -251412286625416546
+    second: Lin_R_1
+  - first:
+      213: -3165293165776917935
+    second: Lin_R_2
+  - first:
+      213: 1774253572018100715
+    second: Lin_R_3
+  - first:
+      213: -18139684669376935
+    second: Lin_R_4
+  - first:
+      213: 8289428990065458359
+    second: Lin_R_5
+  - first:
+      213: -5973818725305524383
+    second: Lin_R_6
+  - first:
+      213: 7336856127099601338
+    second: Lin_R_7
+  - first:
+      213: 189901874067226730
+    second: Lin_R_8
+  - first:
+      213: 7114693026817494400
+    second: Lin_R_9
+  - first:
+      213: 9043225140717183326
+    second: Lin_R_10
+  - first:
+      213: -3275521253246337390
+    second: Lin_R_11
+  - first:
+      213: -4447533435558728598
+    second: Lin_R_12
+  - first:
+      213: 4251433724146452877
+    second: Lin_R_13
+  - first:
+      213: -6292128919907961660
+    second: Lin_R_14
+  - first:
+      213: 247312999095213720
+    second: Lin_R_15
+  - first:
+      213: -3640852361560450287
+    second: Lin_R_16
+  - first:
+      213: 1520594964034963139
+    second: Lin_R_17
+  - first:
+      213: 2382950717045381054
+    second: Lin_R_18
+  - first:
+      213: 4533079413447627130
+    second: Lin_R_19
+  - first:
+      213: -5655123024281194388
+    second: Lin_R_20
+  - first:
+      213: 8626924690855375543
+    second: Lin_R_21
+  - first:
+      213: -876121438275859678
+    second: Lin_R_22
+  - first:
+      213: 6297354783693879835
+    second: Lin_R_23
+  - first:
+      213: -1699302730299710393
+    second: Lin_R_24
+  - first:
+      213: 78480887899301328
+    second: Lin_R_25
+  - first:
+      213: 1614980297120035159
+    second: Lin_R_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lin_R_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 146
+        width: 84
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e2374f1e279f0f0800000000000000
+      internalID: -1082707920611496426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_R_1
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 54
+        width: 247
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9af58b7bddc28cf0800000000000000
+      internalID: -251412286625416546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_R_2
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 146
+        width: 83
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15a25ebd2ae9214d0800000000000000
+      internalID: -3165293165776917935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_R_3
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 54
+        width: 247
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be95b9d293a6f9810800000000000000
+      internalID: 1774253572018100715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_R_4
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 148
+        width: 82
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956b1fa8d0e8fbff0800000000000000
+      internalID: -18139684669376935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_R_5
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 54
+        width: 247
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc3da74fb7f90370800000000000000
+      internalID: 8289428990065458359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_R_6
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 54
+        width: 282
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16f569d158bb81da0800000000000000
+      internalID: -5973818725305524383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_R_7
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 54
+        width: 250
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab18be776cfb1d560800000000000000
+      internalID: 7336856127099601338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_R_8
+      rect:
+        serializedVersion: 2
+        x: 2228
+        y: 54
+        width: 247
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6045f19fbaa2a200800000000000000
+      internalID: 189901874067226730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_R_9
+      rect:
+        serializedVersion: 2
+        x: 2654
+        y: 54
+        width: 247
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08dc765dc977cb260800000000000000
+      internalID: 7114693026817494400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_R_10
+      rect:
+        serializedVersion: 2
+        x: 3081
+        y: 54
+        width: 247
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5164583a5dff7d70800000000000000
+      internalID: 9043225140717183326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_R_11
+      rect:
+        serializedVersion: 2
+        x: 3507
+        y: 54
+        width: 247
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e720e46c20b82d0800000000000000
+      internalID: -3275521253246337390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_R_12
+      rect:
+        serializedVersion: 2
+        x: 3934
+        y: 54
+        width: 247
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c69d687ef2742c0800000000000000
+      internalID: -4447533435558728598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_R_13
+      rect:
+        serializedVersion: 2
+        x: 4361
+        y: 54
+        width: 247
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d898dd17270200b30800000000000000
+      internalID: 4251433724146452877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_R_14
+      rect:
+        serializedVersion: 2
+        x: 4787
+        y: 54
+        width: 247
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c47cef951edda8a0800000000000000
+      internalID: -6292128919907961660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_R_15
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 54
+        width: 261
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e1863ccd1ae6300800000000000000
+      internalID: 247312999095213720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_R_16
+      rect:
+        serializedVersion: 2
+        x: 5620
+        y: 54
+        width: 268
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b1c853118197dc0800000000000000
+      internalID: -3640852361560450287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_R_17
+      rect:
+        serializedVersion: 2
+        x: 6045
+        y: 54
+        width: 270
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c64d86301d3a1510800000000000000
+      internalID: 1520594964034963139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_R_18
+      rect:
+        serializedVersion: 2
+        x: 6471
+        y: 54
+        width: 270
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb790ce3d01f11120800000000000000
+      internalID: 2382950717045381054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_R_19
+      rect:
+        serializedVersion: 2
+        x: 6898
+        y: 54
+        width: 270
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a719e2195bbb8ee30800000000000000
+      internalID: 4533079413447627130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_R_20
+      rect:
+        serializedVersion: 2
+        x: 7324
+        y: 54
+        width: 270
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6036905297f481b0800000000000000
+      internalID: -5655123024281194388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_R_21
+      rect:
+        serializedVersion: 2
+        x: 7751
+        y: 54
+        width: 270
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b23b768c4ef8b770800000000000000
+      internalID: 8626924690855375543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_R_22
+      rect:
+        serializedVersion: 2
+        x: 8178
+        y: 54
+        width: 270
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b867b913467d3f0800000000000000
+      internalID: -876121438275859678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_R_23
+      rect:
+        serializedVersion: 2
+        x: 8604
+        y: 54
+        width: 270
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1a3eaa9fc2b46750800000000000000
+      internalID: 6297354783693879835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_R_24
+      rect:
+        serializedVersion: 2
+        x: 9031
+        y: 54
+        width: 270
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74462aa8b2dda68e0800000000000000
+      internalID: -1699302730299710393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_R_25
+      rect:
+        serializedVersion: 2
+        x: 9458
+        y: 54
+        width: 270
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d525e4a3f1d61100800000000000000
+      internalID: 78480887899301328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_R_26
+      rect:
+        serializedVersion: 2
+        x: 9884
+        y: 54
+        width: 270
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75138111600996610800000000000000
+      internalID: 1614980297120035159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

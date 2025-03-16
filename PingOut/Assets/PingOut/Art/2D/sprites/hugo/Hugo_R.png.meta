@@ -1,0 +1,1343 @@
+fileFormatVersion: 2
+guid: 68d79a18c4cb05e47af6ed4233ad461c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 689350699025991460
+    second: Hugo_R_0
+  - first:
+      213: 5710237096136961962
+    second: Hugo_R_1
+  - first:
+      213: -1652328898686380080
+    second: Hugo_R_2
+  - first:
+      213: 2242205635514064159
+    second: Hugo_R_3
+  - first:
+      213: -7099023587579928266
+    second: Hugo_R_4
+  - first:
+      213: -7214155073043240610
+    second: Hugo_R_5
+  - first:
+      213: 3047943225614092001
+    second: Hugo_R_6
+  - first:
+      213: -654145706599177676
+    second: Hugo_R_7
+  - first:
+      213: -6177597042980411220
+    second: Hugo_R_8
+  - first:
+      213: -8667140947721927914
+    second: Hugo_R_9
+  - first:
+      213: -5701903178827264592
+    second: Hugo_R_10
+  - first:
+      213: 3160192592039566406
+    second: Hugo_R_11
+  - first:
+      213: 40785725670306268
+    second: Hugo_R_12
+  - first:
+      213: -4262653624275380868
+    second: Hugo_R_13
+  - first:
+      213: 1617139891431659965
+    second: Hugo_R_14
+  - first:
+      213: 3356507481210077456
+    second: Hugo_R_15
+  - first:
+      213: -1075543339539486065
+    second: Hugo_R_16
+  - first:
+      213: -7650139079354313215
+    second: Hugo_R_17
+  - first:
+      213: 3603495248499313838
+    second: Hugo_R_18
+  - first:
+      213: -2887349935024229632
+    second: Hugo_R_19
+  - first:
+      213: 7379831519458354469
+    second: Hugo_R_20
+  - first:
+      213: 779494612578777436
+    second: Hugo_R_21
+  - first:
+      213: -4704580907093120075
+    second: Hugo_R_22
+  - first:
+      213: 4100312573498883315
+    second: Hugo_R_23
+  - first:
+      213: 13583442105173746
+    second: Hugo_R_24
+  - first:
+      213: 1265126750562659987
+    second: Hugo_R_25
+  - first:
+      213: 4219332916512372971
+    second: Hugo_R_26
+  - first:
+      213: 5832657806483094783
+    second: Hugo_R_27
+  - first:
+      213: -1074076792187352987
+    second: Hugo_R_28
+  - first:
+      213: -8089918284937569302
+    second: Hugo_R_29
+  - first:
+      213: 5178179832380236459
+    second: Hugo_R_30
+  - first:
+      213: -4075336966500080246
+    second: Hugo_R_31
+  - first:
+      213: 8791146620622762998
+    second: Hugo_R_32
+  - first:
+      213: 579084265731538845
+    second: Hugo_R_33
+  - first:
+      213: 5965346675854369248
+    second: Hugo_R_34
+  - first:
+      213: 1877776919337496461
+    second: Hugo_R_35
+  - first:
+      213: 4744185007376043700
+    second: Hugo_R_36
+  - first:
+      213: 2486046912174177619
+    second: Hugo_R_37
+  - first:
+      213: -9010746702459747602
+    second: Hugo_R_38
+  - first:
+      213: 5050952918366739891
+    second: Hugo_R_39
+  - first:
+      213: -3582094952410028342
+    second: Hugo_R_40
+  - first:
+      213: 972518007213455963
+    second: Hugo_R_41
+  - first:
+      213: 6201753146421090870
+    second: Hugo_R_42
+  - first:
+      213: 5444122546799889582
+    second: Hugo_R_43
+  - first:
+      213: -2125706153122510463
+    second: Hugo_R_44
+  - first:
+      213: 1143484340759086091
+    second: Hugo_R_45
+  - first:
+      213: 516900878813758555
+    second: Hugo_R_46
+  - first:
+      213: 442944239072819676
+    second: Hugo_R_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hugo_R_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 146
+        width: 84
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4278c15fec0119900800000000000000
+      internalID: 689350699025991460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_1
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 54
+        width: 232
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf60828266de3f40800000000000000
+      internalID: 5710237096136961962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_2
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 146
+        width: 83
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d79fadfe9fb119e0800000000000000
+      internalID: -1652328898686380080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_3
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 54
+        width: 232
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1dd132552aed1f10800000000000000
+      internalID: 2242205635514064159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_4
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 148
+        width: 82
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 631ed2ac8a33b7d90800000000000000
+      internalID: -7099023587579928266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_5
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 54
+        width: 232
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e59ecacee2c22eb90800000000000000
+      internalID: -7214155073043240610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_6
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 54
+        width: 277
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e6494a07387c4a20800000000000000
+      internalID: 3047943225614092001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_7
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 158
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4322fc612f10ce6f0800000000000000
+      internalID: -654145706599177676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_8
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 54
+        width: 245
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca826af3834c44aa0800000000000000
+      internalID: -6177597042980411220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_9
+      rect:
+        serializedVersion: 2
+        x: 1999
+        y: 158
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 613cac08a3128b780800000000000000
+      internalID: -8667140947721927914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_10
+      rect:
+        serializedVersion: 2
+        x: 2229
+        y: 54
+        width: 241
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bd8452d445ced0b0800000000000000
+      internalID: -5701903178827264592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_11
+      rect:
+        serializedVersion: 2
+        x: 2426
+        y: 158
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64cd6564b624bdb20800000000000000
+      internalID: 3160192592039566406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_12
+      rect:
+        serializedVersion: 2
+        x: 2656
+        y: 54
+        width: 240
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd13c72c666e09000800000000000000
+      internalID: 40785725670306268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_13
+      rect:
+        serializedVersion: 2
+        x: 2852
+        y: 158
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c75d88cfc1308d4c0800000000000000
+      internalID: -4262653624275380868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_14
+      rect:
+        serializedVersion: 2
+        x: 3091
+        y: 54
+        width: 232
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db9d5ecc92c317610800000000000000
+      internalID: 1617139891431659965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_15
+      rect:
+        serializedVersion: 2
+        x: 3279
+        y: 158
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 011c77745c5b49e20800000000000000
+      internalID: 3356507481210077456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_16
+      rect:
+        serializedVersion: 2
+        x: 3517
+        y: 54
+        width: 232
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8a263af707e211f0800000000000000
+      internalID: -1075543339539486065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_17
+      rect:
+        serializedVersion: 2
+        x: 3705
+        y: 158
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10690cc1a0f35d590800000000000000
+      internalID: -7650139079354313215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_18
+      rect:
+        serializedVersion: 2
+        x: 3944
+        y: 54
+        width: 232
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eac0c9c16df220230800000000000000
+      internalID: 3603495248499313838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_19
+      rect:
+        serializedVersion: 2
+        x: 4132
+        y: 158
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00332ac28821ee7d0800000000000000
+      internalID: -2887349935024229632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_20
+      rect:
+        serializedVersion: 2
+        x: 4371
+        y: 54
+        width: 232
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525eb8bbaad6a6660800000000000000
+      internalID: 7379831519458354469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_21
+      rect:
+        serializedVersion: 2
+        x: 4559
+        y: 158
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c59b61f583251da00800000000000000
+      internalID: 779494612578777436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_22
+      rect:
+        serializedVersion: 2
+        x: 4797
+        y: 54
+        width: 232
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb21a74798f5beb0800000000000000
+      internalID: -4704580907093120075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_23
+      rect:
+        serializedVersion: 2
+        x: 4985
+        y: 158
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fcf77baf8c37e830800000000000000
+      internalID: 4100312573498883315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_24
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 54
+        width: 256
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f681819112403000800000000000000
+      internalID: 13583442105173746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_25
+      rect:
+        serializedVersion: 2
+        x: 5412
+        y: 158
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ea123a312ae8110800000000000000
+      internalID: 1265126750562659987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_26
+      rect:
+        serializedVersion: 2
+        x: 5620
+        y: 54
+        width: 263
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be835ddbee41e8a30800000000000000
+      internalID: 4219332916512372971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_27
+      rect:
+        serializedVersion: 2
+        x: 5839
+        y: 158
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc75db4f53c1f050800000000000000
+      internalID: 5832657806483094783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_28
+      rect:
+        serializedVersion: 2
+        x: 6045
+        y: 54
+        width: 265
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5688e2429dc1811f0800000000000000
+      internalID: -1074076792187352987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_29
+      rect:
+        serializedVersion: 2
+        x: 6266
+        y: 158
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aebdb5c9e26dabf80800000000000000
+      internalID: -8089918284937569302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_30
+      rect:
+        serializedVersion: 2
+        x: 6471
+        y: 54
+        width: 265
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba2ad145f179cd740800000000000000
+      internalID: 5178179832380236459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_31
+      rect:
+        serializedVersion: 2
+        x: 6692
+        y: 158
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a85aebbfe9e7177c0800000000000000
+      internalID: -4075336966500080246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_32
+      rect:
+        serializedVersion: 2
+        x: 6898
+        y: 54
+        width: 265
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f37892264d600a70800000000000000
+      internalID: 8791146620622762998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_33
+      rect:
+        serializedVersion: 2
+        x: 7119
+        y: 158
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f32f15212590800800000000000000
+      internalID: 579084265731538845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_34
+      rect:
+        serializedVersion: 2
+        x: 7324
+        y: 54
+        width: 265
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e16b58223b29c250800000000000000
+      internalID: 5965346675854369248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_35
+      rect:
+        serializedVersion: 2
+        x: 7545
+        y: 158
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8fe984c8243f0a10800000000000000
+      internalID: 1877776919337496461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_36
+      rect:
+        serializedVersion: 2
+        x: 7751
+        y: 54
+        width: 265
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be0261e02bb6d140800000000000000
+      internalID: 4744185007376043700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_37
+      rect:
+        serializedVersion: 2
+        x: 7972
+        y: 158
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d3917be76308220800000000000000
+      internalID: 2486046912174177619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_38
+      rect:
+        serializedVersion: 2
+        x: 8178
+        y: 54
+        width: 265
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee24dd67d9563f280800000000000000
+      internalID: -9010746702459747602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_39
+      rect:
+        serializedVersion: 2
+        x: 8399
+        y: 158
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bdd87c0be6981640800000000000000
+      internalID: 5050952918366739891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_40
+      rect:
+        serializedVersion: 2
+        x: 8604
+        y: 54
+        width: 265
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac661e99e97d94ec0800000000000000
+      internalID: -3582094952410028342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_41
+      rect:
+        serializedVersion: 2
+        x: 8825
+        y: 158
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5af0a599f31f7d00800000000000000
+      internalID: 972518007213455963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_42
+      rect:
+        serializedVersion: 2
+        x: 9031
+        y: 54
+        width: 265
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63a171dd0ad011650800000000000000
+      internalID: 6201753146421090870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_43
+      rect:
+        serializedVersion: 2
+        x: 9252
+        y: 158
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eacc3b3bc986d8b40800000000000000
+      internalID: 5444122546799889582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_44
+      rect:
+        serializedVersion: 2
+        x: 9458
+        y: 54
+        width: 265
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18945462489ff72e0800000000000000
+      internalID: -2125706153122510463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_45
+      rect:
+        serializedVersion: 2
+        x: 9679
+        y: 158
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04ca2113f87edf00800000000000000
+      internalID: 1143484340759086091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_46
+      rect:
+        serializedVersion: 2
+        x: 9884
+        y: 54
+        width: 265
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5408c15c966c2700800000000000000
+      internalID: 516900878813758555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_R_47
+      rect:
+        serializedVersion: 2
+        x: 10105
+        y: 158
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9bd394077a52600800000000000000
+      internalID: 442944239072819676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

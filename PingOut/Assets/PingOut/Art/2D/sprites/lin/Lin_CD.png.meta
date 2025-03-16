@@ -1,0 +1,1318 @@
+fileFormatVersion: 2
+guid: 8325b015385cd6e44a2cb845e9797020
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3393213637052564237
+    second: Lin_CD_0
+  - first:
+      213: 3169022844985765637
+    second: Lin_CD_1
+  - first:
+      213: -8825971953875438264
+    second: Lin_CD_2
+  - first:
+      213: -4407825111766188652
+    second: Lin_CD_3
+  - first:
+      213: 6956429079424548949
+    second: Lin_CD_4
+  - first:
+      213: 5861681810172524143
+    second: Lin_CD_5
+  - first:
+      213: -7503730017120687640
+    second: Lin_CD_6
+  - first:
+      213: 5711014420028166679
+    second: Lin_CD_7
+  - first:
+      213: 4683764743526462077
+    second: Lin_CD_8
+  - first:
+      213: 1372365554622587290
+    second: Lin_CD_9
+  - first:
+      213: -6237446318192057447
+    second: Lin_CD_10
+  - first:
+      213: -8977203306380606396
+    second: Lin_CD_11
+  - first:
+      213: -2223423629565531822
+    second: Lin_CD_12
+  - first:
+      213: -6268243814243602964
+    second: Lin_CD_13
+  - first:
+      213: 4384003799511713258
+    second: Lin_CD_14
+  - first:
+      213: 4901261270777328670
+    second: Lin_CD_15
+  - first:
+      213: -5090786243348059995
+    second: Lin_CD_16
+  - first:
+      213: 1921703747821623197
+    second: Lin_CD_17
+  - first:
+      213: 1577874075654483413
+    second: Lin_CD_18
+  - first:
+      213: 4871055980996349098
+    second: Lin_CD_19
+  - first:
+      213: -6065663868454098165
+    second: Lin_CD_20
+  - first:
+      213: -3513500824848497027
+    second: Lin_CD_21
+  - first:
+      213: -5544392567652954387
+    second: Lin_CD_22
+  - first:
+      213: 953847730020302022
+    second: Lin_CD_23
+  - first:
+      213: 1346101378927832295
+    second: Lin_CD_24
+  - first:
+      213: 2175347553622236607
+    second: Lin_CD_25
+  - first:
+      213: 973885983739462642
+    second: Lin_CD_26
+  - first:
+      213: 2439742390310345604
+    second: Lin_CD_27
+  - first:
+      213: 624415841546069952
+    second: Lin_CD_28
+  - first:
+      213: 1094656646644314376
+    second: Lin_CD_29
+  - first:
+      213: -185789906122010836
+    second: Lin_CD_30
+  - first:
+      213: 8914806949153999744
+    second: Lin_CD_31
+  - first:
+      213: 2319111960758758711
+    second: Lin_CD_32
+  - first:
+      213: 3048986604581515441
+    second: Lin_CD_33
+  - first:
+      213: -1886756231918885233
+    second: Lin_CD_34
+  - first:
+      213: 2225500438444546118
+    second: Lin_CD_35
+  - first:
+      213: -7163079285737036033
+    second: Lin_CD_36
+  - first:
+      213: -767234592121329279
+    second: Lin_CD_37
+  - first:
+      213: 3243555510629541959
+    second: Lin_CD_38
+  - first:
+      213: 5881189792842970333
+    second: Lin_CD_39
+  - first:
+      213: 4580127931943784892
+    second: Lin_CD_40
+  - first:
+      213: 7002958190988385505
+    second: Lin_CD_41
+  - first:
+      213: 2003399844998948777
+    second: Lin_CD_42
+  - first:
+      213: 6282009813187932592
+    second: Lin_CD_43
+  - first:
+      213: 3059488178364225849
+    second: Lin_CD_44
+  - first:
+      213: -8107241240200109702
+    second: Lin_CD_45
+  - first:
+      213: 3711251503917623392
+    second: Lin_CD_46
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lin_CD_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 146
+        width: 84
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d03878b23dd171f20800000000000000
+      internalID: 3393213637052564237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_1
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 54
+        width: 247
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f6970cc71aafb20800000000000000
+      internalID: 3169022844985765637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_2
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 146
+        width: 83
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 845b1bb1549d38580800000000000000
+      internalID: -8825971953875438264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_3
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 54
+        width: 247
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49d312d1a6244d2c0800000000000000
+      internalID: -4407825111766188652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_4
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 148
+        width: 82
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5504c4814633a8060800000000000000
+      internalID: 6956429079424548949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_5
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 54
+        width: 247
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f66b3b1cc80e85150800000000000000
+      internalID: 5861681810172524143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_6
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 54
+        width: 282
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e9e51f4e456dd790800000000000000
+      internalID: -7503730017120687640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_7
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 54
+        width: 250
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71299e45b59914f40800000000000000
+      internalID: 5711014420028166679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_8
+      rect:
+        serializedVersion: 2
+        x: 2002
+        y: 151
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72b465f733100140800000000000000
+      internalID: 4683764743526462077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_9
+      rect:
+        serializedVersion: 2
+        x: 2228
+        y: 54
+        width: 247
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a91e249633f9b0310800000000000000
+      internalID: 1372365554622587290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_10
+      rect:
+        serializedVersion: 2
+        x: 2436
+        y: 153
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 993289afe932079a0800000000000000
+      internalID: -6237446318192057447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_11
+      rect:
+        serializedVersion: 2
+        x: 2654
+        y: 54
+        width: 247
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 444c8b6f7219a6380800000000000000
+      internalID: -8977203306380606396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_12
+      rect:
+        serializedVersion: 2
+        x: 2863
+        y: 153
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25969863dffc421e0800000000000000
+      internalID: -2223423629565531822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_13
+      rect:
+        serializedVersion: 2
+        x: 3081
+        y: 54
+        width: 247
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced68762679b209a0800000000000000
+      internalID: -6268243814243602964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_14
+      rect:
+        serializedVersion: 2
+        x: 3290
+        y: 153
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae5cbdb6a3c17dc30800000000000000
+      internalID: 4384003799511713258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_15
+      rect:
+        serializedVersion: 2
+        x: 3507
+        y: 54
+        width: 247
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e14ff046827c40440800000000000000
+      internalID: 4901261270777328670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_16
+      rect:
+        serializedVersion: 2
+        x: 3716
+        y: 153
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a82bc142e4e959b0800000000000000
+      internalID: -5090786243348059995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_17
+      rect:
+        serializedVersion: 2
+        x: 3934
+        y: 54
+        width: 247
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97d17480634baa10800000000000000
+      internalID: 1921703747821623197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_18
+      rect:
+        serializedVersion: 2
+        x: 4143
+        y: 153
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ddeea3ac1cb5e510800000000000000
+      internalID: 1577874075654483413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_19
+      rect:
+        serializedVersion: 2
+        x: 4358
+        y: 54
+        width: 250
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aac44545b97799340800000000000000
+      internalID: 4871055980996349098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_20
+      rect:
+        serializedVersion: 2
+        x: 4570
+        y: 153
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b2fd159de62dba0800000000000000
+      internalID: -6065663868454098165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_21
+      rect:
+        serializedVersion: 2
+        x: 4770
+        y: 54
+        width: 264
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d760dd87d998d3fc0800000000000000
+      internalID: -3513500824848497027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_22
+      rect:
+        serializedVersion: 2
+        x: 4996
+        y: 153
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deecabdc55c5e03b0800000000000000
+      internalID: -5544392567652954387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_23
+      rect:
+        serializedVersion: 2
+        x: 5157
+        y: 54
+        width: 304
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc3cade47fbc3d00800000000000000
+      internalID: 953847730020302022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_24
+      rect:
+        serializedVersion: 2
+        x: 5423
+        y: 153
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ec28aa72105ea210800000000000000
+      internalID: 1346101378927832295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_25
+      rect:
+        serializedVersion: 2
+        x: 5566
+        y: 54
+        width: 322
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd1ba41313603e10800000000000000
+      internalID: 2175347553622236607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_26
+      rect:
+        serializedVersion: 2
+        x: 5850
+        y: 153
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3c5807420f38d00800000000000000
+      internalID: 973885983739462642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_27
+      rect:
+        serializedVersion: 2
+        x: 5988
+        y: 54
+        width: 327
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b19e517c4bbd120800000000000000
+      internalID: 2439742390310345604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_28
+      rect:
+        serializedVersion: 2
+        x: 6277
+        y: 153
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c7ea7b46ee5aa800800000000000000
+      internalID: 624415841546069952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_29
+      rect:
+        serializedVersion: 2
+        x: 6412
+        y: 54
+        width: 329
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 801314e9b60013f00800000000000000
+      internalID: 1094656646644314376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_30
+      rect:
+        serializedVersion: 2
+        x: 6703
+        y: 153
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f8eb29011fb6df0800000000000000
+      internalID: -185789906122010836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_31
+      rect:
+        serializedVersion: 2
+        x: 6839
+        y: 54
+        width: 329
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b028500b1c7bb70800000000000000
+      internalID: 8914806949153999744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_32
+      rect:
+        serializedVersion: 2
+        x: 7130
+        y: 153
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73da2678a042f2020800000000000000
+      internalID: 2319111960758758711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_33
+      rect:
+        serializedVersion: 2
+        x: 7265
+        y: 54
+        width: 329
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b07103a92d205a20800000000000000
+      internalID: 3048986604581515441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_34
+      rect:
+        serializedVersion: 2
+        x: 7556
+        y: 153
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8668ba1435e0d5e0800000000000000
+      internalID: -1886756231918885233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_35
+      rect:
+        serializedVersion: 2
+        x: 7692
+        y: 54
+        width: 329
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64896f88bd092ee10800000000000000
+      internalID: 2225500438444546118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_36
+      rect:
+        serializedVersion: 2
+        x: 7983
+        y: 153
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff66fab5751a79c90800000000000000
+      internalID: -7163079285737036033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_37
+      rect:
+        serializedVersion: 2
+        x: 8119
+        y: 54
+        width: 329
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1896735143c3a55f0800000000000000
+      internalID: -767234592121329279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_38
+      rect:
+        serializedVersion: 2
+        x: 8410
+        y: 153
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 748a5544d8c630d20800000000000000
+      internalID: 3243555510629541959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_39
+      rect:
+        serializedVersion: 2
+        x: 8545
+        y: 54
+        width: 329
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd4fe0be4fe2e9150800000000000000
+      internalID: 5881189792842970333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_40
+      rect:
+        serializedVersion: 2
+        x: 8836
+        y: 153
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb19a596612ef8f30800000000000000
+      internalID: 4580127931943784892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_41
+      rect:
+        serializedVersion: 2
+        x: 8972
+        y: 54
+        width: 329
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ec56c61f518f2160800000000000000
+      internalID: 7002958190988385505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_42
+      rect:
+        serializedVersion: 2
+        x: 9263
+        y: 153
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a72c386b818dcb10800000000000000
+      internalID: 2003399844998948777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_43
+      rect:
+        serializedVersion: 2
+        x: 9399
+        y: 54
+        width: 329
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b1b59e34ae2e2750800000000000000
+      internalID: 6282009813187932592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_44
+      rect:
+        serializedVersion: 2
+        x: 9690
+        y: 153
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93918e1d94c757a20800000000000000
+      internalID: 3059488178364225849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_45
+      rect:
+        serializedVersion: 2
+        x: 9825
+        y: 54
+        width: 329
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71a979cb0b4d7f80800000000000000
+      internalID: -8107241240200109702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lin_CD_46
+      rect:
+        serializedVersion: 2
+        x: 10116
+        y: 153
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 068e42b6493018330800000000000000
+      internalID: 3711251503917623392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
