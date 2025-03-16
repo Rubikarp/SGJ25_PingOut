@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      poussette_0: 6474754583708347083
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
