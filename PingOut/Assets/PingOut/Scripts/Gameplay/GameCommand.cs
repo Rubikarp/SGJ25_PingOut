@@ -274,15 +274,12 @@ public class ShootCommand : GameCommand
 }
 public class PrepareShootCommand : GameCommand
 {
-    public ElementPosition beginPos;
-    public ElementPosition finishPos;
-
     public PlayerController playerRef;
     public EShootType shootType;
 
     public override void RefreshToTick(int tickTime)
     {
-        if (tickTime == endTick)
+        if (tickTime == endTick - 1)
         {
             playerRef.TryShoot(this);
         }

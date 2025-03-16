@@ -52,13 +52,14 @@ public class PlayerController : TickElement
     public void TryShoot(PrepareShootCommand shootPrep)
     {
         var ball = BallController.Instance;
-        var lastBallCommand = ball.elementHistory.LastOrDefault(x => x is ShootCommand) as ShootCommand;
-        if (lastBallCommand != null)
+        var lastBallCommand = ball.elementHistory.Last();
+        if (lastBallCommand == null)
         {
             Debug.LogWarning("create fake shoot");
             lastBallCommand = new ShootCommand(historyTick, EShootType.TopSpin, 0, ball.iaCenter, ball.playerCenter, ball);
         }
-        var shootStartPos = lastBallCommand.finishPos;
+        var shootData = ball.elementHistory.LastOrDefault(x => x is ShootCommand) as ShootCommand;
+        var shootStartPos = shootData.finishPos;
 
         //TODO : check ball pos + revert ou droit
         bool touchBallInTime = shootPrep.endTick == historyTick;
@@ -138,7 +139,7 @@ public class PlayerController : TickElement
 
         int shootConfrontation = GameCommand.ShootConfrontation(ball.shootType, shootPrep.shootType);
         int avantage = shootConfrontation + (optimalPos ? 1 : 0);
-        var newOrder = new ShootCommand(historyTick, shootPrep.shootType, avantage, lastBallCommand.finishPos, shootEndPos, ball);
+        var newOrder = new ShootCommand(historyTick, shootPrep.shootType, avantage, shootStartPos, shootEndPos, ball);
         ball.RegisterOrder(newOrder);
     }
     public void FlipIsRevers()
