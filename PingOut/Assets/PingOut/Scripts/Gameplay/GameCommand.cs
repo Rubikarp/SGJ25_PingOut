@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public abstract class GameCommand
 {
@@ -9,6 +10,7 @@ public abstract class GameCommand
     public abstract void RefreshToTick(int relativeTickTime);
     public abstract void RevertCommand();
     public abstract string DebugText();
+    public abstract string DrawText();
 
     public static int ShootConfrontation(EShootType incomming, EShootType response)
     {
@@ -77,20 +79,26 @@ public abstract class GameCommand
     }
     public static int ShootDuration(EShootType type)
     {
+        var baseDuration = 0;
         switch (type)
         {
             case EShootType.TopSpin:
-                return 1;
+                baseDuration = 1;
+                break;
             case EShootType.Coupe:
-                return 3;
+                baseDuration = 3;
+                break;
             case EShootType.Block:
-                return 2;
+                baseDuration = 2;
+                break;
             case EShootType.Smash:
-                return 1;
+                baseDuration = 1;
+                break;
             default:
-                return 3;
+                baseDuration = 3;
+                break;
         }
-
+        return baseDuration + 1;
     }
     public static int ShootPrepDuration(EShootType type)
     {
@@ -112,9 +120,10 @@ public abstract class GameCommand
 }
 public class EmptyCommand : GameCommand
 {
-    public override void RefreshToTick(int tickTime){}
-    public override void RevertCommand() {}
+    public override void RefreshToTick(int tickTime) { }
+    public override void RevertCommand() { }
     public override string DebugText() => $"Wait order at {startTick}";
+    public override string DrawText() => "Wait";
 
 
     public EmptyCommand(int startTick)
@@ -127,6 +136,7 @@ public class SideFlipCommand : GameCommand
 {
     public PlayerController playerRef;
     public bool switchingForRevers = true;
+    public string GetWord() => switchingForRevers ? "Revers" : "Droit";
 
     public override void RefreshToTick(int tickTime)
     {
@@ -149,6 +159,7 @@ public class SideFlipCommand : GameCommand
     }
 
     public override string DebugText() => $"Side flip order at {startTick}";
+    public override string DrawText() => $"Mode {GetWord()}";
 
     public SideFlipCommand(int startTick, bool switchingForRevers, PlayerController playerRef)
     {
@@ -186,6 +197,7 @@ public class MovementCommand : GameCommand
         playerRef.historyPos = beginPos;
     }
     public override string DebugText() => $"Move from {beginPos.name} to {finishPos.name} at {startTick}";
+    public override string DrawText() => $"Move";
 
     public MovementCommand(int startTick, ElementPosition beginPos, ElementPosition endPos, PlayerController controller)
     {
@@ -252,7 +264,8 @@ public class ShootCommand : GameCommand
         AvantageManager.Instance.Addavantage(-advantage);
 
     }
-    public override string DebugText() => $"Move from {beginPos.name} to {finishPos.name} at {startTick}";
+    public override string DebugText() => $"Shoot {Enum.GetName(typeof(EShootType), type)} to {finishPos.name} at {startTick}";
+    public override string DrawText() => $"{Enum.GetName(typeof(EShootType), type)}";
 
     public ShootCommand(int startTick, EShootType shootType, int advantage, ElementPosition beginPos, ElementPosition endPos, BallController ballRef)
     {
@@ -265,7 +278,7 @@ public class ShootCommand : GameCommand
         this.ballRef = ballRef;
         this.type = shootType;
 
-        if(beginPos == ballRef.iaCenter || beginPos == ballRef.iaLeft || beginPos == ballRef.iaRight)
+        if (beginPos == ballRef.iaCenter || beginPos == ballRef.iaLeft || beginPos == ballRef.iaRight)
         {
             advantage *= -1;
         }
@@ -290,6 +303,7 @@ public class PrepareShootCommand : GameCommand
     }
 
     public override string DebugText() => $"Prepare shoot of type {nameof(shootType)} at {startTick}";
+    public override string DrawText() => $"{Enum.GetName(typeof(EShootType), shootType)}";
 
     public PrepareShootCommand(int startTick, EShootType shootType, PlayerController playerRef)
     {

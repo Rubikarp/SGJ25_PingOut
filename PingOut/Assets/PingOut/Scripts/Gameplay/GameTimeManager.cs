@@ -19,6 +19,7 @@ public class GameTimeManager : Singleton<GameTimeManager>
 
             if (value == _currentTick) return;
             OnTickChange?.Invoke(_currentTick, value);
+            OnTickRefresh?.Invoke(value);
             _currentTick = value;
         }
     }
@@ -31,9 +32,12 @@ public class GameTimeManager : Singleton<GameTimeManager>
     public static UnityAction<int> OnSequenceStart;
     public static UnityAction<int, int> OnTickChange;
 
+    public UnityEvent<float> OnTickRefresh;
+
     [Button] public void NextTick() => CurrentTick++;
     [Button] public void PrevTick() => CurrentTick--;
 
+    public void SetTick(float tick) => CurrentTick = Mathf.RoundToInt(tick);
     public void AddTick(int tick)
     {
         if (CurrentTick == tick) return;

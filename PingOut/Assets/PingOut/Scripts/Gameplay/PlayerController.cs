@@ -16,7 +16,7 @@ public class PlayerController : TickElement
 
 
     public bool IsInRevers = false;
-
+    public bool HistoryIsInRevers = false;
     protected override void Awake()
     {
         base.Awake();
@@ -44,6 +44,19 @@ public class PlayerController : TickElement
     {
         //Check les distances et si même position
         //TODO 
+
+        if (pos == historyPos)
+        {
+            return;
+        }
+        int currentPosIndex = playerPoses.ToList().IndexOf(historyPos);
+        int newPosIndex = playerPoses.ToList().IndexOf(pos);
+
+        if (Mathf.Abs(currentPosIndex - newPosIndex) > 1)
+        {
+            int sign = (int)Mathf.Sign(newPosIndex - currentPosIndex);
+            pos = playerPoses[currentPosIndex + sign];
+        }
 
         var newOrder = new MovementCommand(historyTick, historyPos, pos, this);
         historyPos = pos;
@@ -144,7 +157,8 @@ public class PlayerController : TickElement
     }
     public void FlipIsRevers()
     {
-        var newOrder = new SideFlipCommand(historyTick, !IsInRevers, this);
+        var newOrder = new SideFlipCommand(historyTick, !HistoryIsInRevers, this);
+        HistoryIsInRevers = !HistoryIsInRevers;
         RegisterOrder(newOrder);
     }
 

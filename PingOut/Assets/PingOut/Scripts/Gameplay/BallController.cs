@@ -48,6 +48,14 @@ public class BallController : TickElement
             return;
         }
     }
+    private void Start()
+    {
+        currentPos = iaLeft;
+        historyPos = iaLeft;
+        MoveToPos(iaLeft);
+
+        TryMoveToPos(playerCenter);
+    }
     protected virtual void OnDestroy()
     {
         if (instance == this) instance = null;
