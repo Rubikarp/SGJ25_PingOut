@@ -7,7 +7,8 @@ public class RefreshUI : MonoBehaviour
     {
         //Force redraw all UI child
 
-        //LayoutRebuilder.ForceRebuildLayoutImmediate(transform as RectTransform);
+        LayoutRebuilder.ForceRebuildLayoutImmediate(transform as RectTransform);
+
         var self = transform as RectTransform;
         self.ForceUpdateRectTransforms();
     }
