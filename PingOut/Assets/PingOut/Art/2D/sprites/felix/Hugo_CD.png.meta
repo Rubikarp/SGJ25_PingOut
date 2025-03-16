@@ -1,145 +1,124 @@
 fileFormatVersion: 2
-guid: 9a59c39de75accd498ac610fd51f33d0
+guid: ade610b5b366bb346b146c78cb0a0709
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2528368490343000004
-    second: felix_CD_0
+      213: -4866828527772629379
+    second: Hugo_CD_0
   - first:
-      213: -7222957921040230672
-    second: felix_CD_1
+      213: -3437314656602978328
+    second: Hugo_CD_1
   - first:
-      213: -4001308581804425358
-    second: felix_CD_2
+      213: 4451634342788586036
+    second: Hugo_CD_2
   - first:
-      213: -72197927860988724
-    second: felix_CD_3
+      213: -9200646396486890070
+    second: Hugo_CD_3
   - first:
-      213: -6685373238866715605
-    second: felix_CD_4
+      213: -3912361509069392354
+    second: Hugo_CD_4
   - first:
-      213: 3330583833216856748
-    second: felix_CD_5
+      213: -3518722159087135196
+    second: Hugo_CD_5
   - first:
-      213: -6475944912273318718
-    second: felix_CD_6
+      213: 550456630687349899
+    second: Hugo_CD_6
   - first:
-      213: 1913457014092883878
-    second: felix_CD_7
+      213: -7621372499325128150
+    second: Hugo_CD_7
   - first:
-      213: -2830177858425247920
-    second: felix_CD_8
+      213: -4785134484446855926
+    second: Hugo_CD_8
   - first:
-      213: 777284301860702370
-    second: felix_CD_9
+      213: 4354430241298022509
+    second: Hugo_CD_9
   - first:
-      213: 8573529614118122560
-    second: felix_CD_10
+      213: -5364747905538198881
+    second: Hugo_CD_10
   - first:
-      213: -546696134941022463
-    second: felix_CD_11
+      213: -8885035402454368353
+    second: Hugo_CD_11
   - first:
-      213: 1955455307683522314
-    second: felix_CD_12
+      213: -4021651325906268071
+    second: Hugo_CD_12
   - first:
-      213: 2538203658595740141
-    second: felix_CD_13
+      213: -4335292616610315074
+    second: Hugo_CD_13
   - first:
-      213: 3646608761040856462
-    second: felix_CD_14
+      213: 3052496879879722509
+    second: Hugo_CD_14
   - first:
-      213: -5241487157116575556
-    second: felix_CD_15
+      213: -5599016479743643752
+    second: Hugo_CD_15
   - first:
-      213: 7542481528209440182
-    second: felix_CD_16
+      213: 5993067391308734652
+    second: Hugo_CD_16
   - first:
-      213: 2628375974404335412
-    second: felix_CD_17
+      213: -8872476531361433266
+    second: Hugo_CD_17
   - first:
-      213: -6461504669371988518
-    second: felix_CD_18
+      213: 6804552473259438094
+    second: Hugo_CD_18
   - first:
-      213: -67492360884294287
-    second: felix_CD_19
+      213: -6491078769673333441
+    second: Hugo_CD_19
   - first:
-      213: 340121132100950967
-    second: felix_CD_20
+      213: -4143233657083793411
+    second: Hugo_CD_20
   - first:
-      213: -4304687634850982158
-    second: felix_CD_21
+      213: 8192683963853940100
+    second: Hugo_CD_21
   - first:
-      213: -1579647718629459954
-    second: felix_CD_22
+      213: -4305906890675791872
+    second: Hugo_CD_22
   - first:
-      213: -7067999921609125084
-    second: felix_CD_23
+      213: 3400645451384948580
+    second: Hugo_CD_23
   - first:
-      213: -4525270838036199661
-    second: felix_CD_24
+      213: 173034252753025997
+    second: Hugo_CD_24
   - first:
-      213: 6141000631262301463
-    second: felix_CD_25
+      213: -2461717427740447668
+    second: Hugo_CD_25
   - first:
-      213: 6795004396095502088
-    second: felix_CD_26
+      213: -4225962829481224016
+    second: Hugo_CD_26
   - first:
-      213: 5808873578440706967
-    second: felix_CD_27
+      213: -7484224643924576971
+    second: Hugo_CD_27
   - first:
-      213: -6708960392888742058
-    second: felix_CD_28
+      213: -458314696861656855
+    second: Hugo_CD_28
   - first:
-      213: 9045836571169414851
-    second: felix_CD_29
+      213: -3270505471810665421
+    second: Hugo_CD_29
   - first:
-      213: 7088333465687275970
-    second: felix_CD_30
+      213: 7867686112374385312
+    second: Hugo_CD_30
   - first:
-      213: -1596173474981090165
-    second: felix_CD_31
+      213: 3243698437541483947
+    second: Hugo_CD_31
   - first:
-      213: -4183948655074116346
-    second: felix_CD_32
+      213: -9214786921647359334
+    second: Hugo_CD_32
   - first:
-      213: 4341737553814058304
-    second: felix_CD_33
+      213: 2664351340464662952
+    second: Hugo_CD_33
   - first:
-      213: 2435268620992687570
-    second: felix_CD_34
+      213: 6208200049697428314
+    second: Hugo_CD_34
   - first:
-      213: 4811653959457714746
-    second: felix_CD_35
+      213: 5885299475823557958
+    second: Hugo_CD_35
   - first:
-      213: -616698491149693818
-    second: felix_CD_36
+      213: -2759131949327271800
+    second: Hugo_CD_36
   - first:
-      213: 5066410469434074835
-    second: felix_CD_37
+      213: -4944724609666839911
+    second: Hugo_CD_37
   - first:
-      213: -1659776454762919307
-    second: felix_CD_38
-  - first:
-      213: 3367632496016390956
-    second: felix_CD_39
-  - first:
-      213: -621750716864832692
-    second: felix_CD_40
-  - first:
-      213: -107222384682592683
-    second: felix_CD_41
-  - first:
-      213: -4717350992636528199
-    second: felix_CD_42
-  - first:
-      213: 3605535705437410165
-    second: felix_CD_43
-  - first:
-      213: -1776511483556690954
-    second: felix_CD_44
-  - first:
-      213: 3244292821619055687
-    second: felix_CD_45
+      213: 4033564925476009320
+    second: Hugo_CD_38
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -207,7 +186,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 16384
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -261,13 +240,343 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: felix_CD_0
+      name: Hugo_CD_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1296
+        width: 432
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6050fe07398236d45a2628192c6064ad
+      internalID: 150221742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_CD_1
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1296
+        width: 432
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd65050baed94d499a1d06c7c3b5365
+      internalID: 339614455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_CD_2
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1296
+        width: 432
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d8185a88007c846a26ebdfba873dca
+      internalID: 91342996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_CD_3
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 1296
+        width: 432
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585f64c9ecb9216499ff639de4cefc22
+      internalID: 935882204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_CD_4
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1296
+        width: 432
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feccb9c39a009324492611230819a292
+      internalID: -1303786338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_CD_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 864
+        width: 432
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9229fe44971489b449fcbb0a219ec822
+      internalID: 914733658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_CD_6
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 864
+        width: 432
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f934d1589fc50574cb965a5ae5bf5623
+      internalID: 945138456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_CD_7
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 864
+        width: 432
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7082b60b468ae414a832155a1fc2c89c
+      internalID: 1791569684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_CD_8
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 864
+        width: 432
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e016d5616546d246bd58e0905271253
+      internalID: -1389008920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_CD_9
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 864
+        width: 432
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3f2d0a38c382c4f87fe1ce02faa992
+      internalID: -1549341821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_CD_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 432
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe9eb66a72c2c34a99674492b5a8865
+      internalID: -2146348911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_CD_11
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 432
+        width: 432
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886f4203c27f933469c623d8e35a687e
+      internalID: 188514500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_CD_12
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 432
+        width: 432
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d142fcc004637614492f9140c9b60de1
+      internalID: 81620641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_CD_13
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 432
+        width: 432
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb7fa435f6fe6344926fdd70685bbb6
+      internalID: 453669204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_CD_14
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 432
+        width: 432
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91e1f9940b5f9e409997ebc27def0d0
+      internalID: 631528113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hugo_CD_15
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 426
-        height: 427
+        width: 432
+        height: 432
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,20 +585,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0bb8eac648038043888c5d5bbf3c04d
-      internalID: 1387165829
+      spriteID: 89799bd041d61ca48948aaf6830c43b6
+      internalID: -947822356
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: felix_CD_1
+      name: Hugo_CD_16
       rect:
         serializedVersion: 2
-        x: 426
+        x: 432
         y: 0
-        width: 426
-        height: 427
+        width: 432
+        height: 432
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -298,20 +607,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3f93e30c0b06814a8499dbdba4686fa
-      internalID: -649197277
+      spriteID: 3373d5431742df44ea9e6ce4708f830d
+      internalID: 928905095
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: felix_CD_2
+      name: Hugo_CD_17
       rect:
         serializedVersion: 2
-        x: 852
+        x: 864
         y: 0
-        width: 426
-        height: 427
+        width: 432
+        height: 432
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -320,20 +629,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15efea682f0a3a447837574413d7cf30
-      internalID: -748641435
+      spriteID: d89a863f10eedc447a3954daad6e925e
+      internalID: -1185512391
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: felix_CD_3
+      name: Hugo_CD_18
       rect:
         serializedVersion: 2
-        x: 1278
+        x: 1296
         y: 0
-        width: 426
-        height: 427
+        width: 432
+        height: 432
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -342,20 +651,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75a4b142961f84f419659527cced35dd
-      internalID: -556042301
+      spriteID: 67f1f7d6ff870a74e910e14d53d181e6
+      internalID: 542641474
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: felix_CD_4
+      name: Hugo_CD_19
       rect:
         serializedVersion: 2
-        x: 1704
+        x: 1728
         y: 0
-        width: 426
-        height: 427
+        width: 432
+        height: 432
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -364,426 +673,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6897b2fbf95bf3a40aee4736cfc582b5
-      internalID: 2101309029
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: felix_CD_5
-      rect:
-        serializedVersion: 2
-        x: 2130
-        y: 0
-        width: 426
-        height: 427
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ede9acf60ec8a1f4ba2a0dad1f5bef5e
-      internalID: 291607408
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: felix_CD_6
-      rect:
-        serializedVersion: 2
-        x: 2556
-        y: 0
-        width: 426
-        height: 427
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aa586369cf757cd46a70fcde3605b51b
-      internalID: -1228076157
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: felix_CD_7
-      rect:
-        serializedVersion: 2
-        x: 2982
-        y: 0
-        width: 426
-        height: 427
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7f9628718502f4b4fbde4b0a765d35b0
-      internalID: -679062513
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: felix_CD_8
-      rect:
-        serializedVersion: 2
-        x: 3408
-        y: 0
-        width: 426
-        height: 427
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b95cb31477725f948b8a6f3a79aaa213
-      internalID: -927064473
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: felix_CD_9
-      rect:
-        serializedVersion: 2
-        x: 3834
-        y: 0
-        width: 426
-        height: 427
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d743c351046b1b242b23d0f98267d265
-      internalID: -1015682269
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: felix_CD_10
-      rect:
-        serializedVersion: 2
-        x: 4260
-        y: 0
-        width: 426
-        height: 427
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d2d2d2a956308b24ab8f9f2057495028
-      internalID: 150621243
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: felix_CD_11
-      rect:
-        serializedVersion: 2
-        x: 4686
-        y: 0
-        width: 426
-        height: 427
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d5bdb66ee43bb354182f7e1b4bf45ec0
-      internalID: 1860903478
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: felix_CD_12
-      rect:
-        serializedVersion: 2
-        x: 5112
-        y: 0
-        width: 426
-        height: 427
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a1af879cff20c4c4d904b47735a45ec4
-      internalID: 1904211607
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: felix_CD_13
-      rect:
-        serializedVersion: 2
-        x: 5538
-        y: 0
-        width: 426
-        height: 427
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aa6866738df1b9040b9b6dcf41f714fa
-      internalID: -1505220466
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: felix_CD_14
-      rect:
-        serializedVersion: 2
-        x: 5964
-        y: 0
-        width: 426
-        height: 427
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2f6e5b6497e95644a9dbd60c305a757e
-      internalID: 902894762
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: felix_CD_15
-      rect:
-        serializedVersion: 2
-        x: 6390
-        y: 0
-        width: 426
-        height: 427
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 09cd7d4202fc2d6488fb2f8f6fd8891d
-      internalID: 342315310
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: felix_CD_16
-      rect:
-        serializedVersion: 2
-        x: 6816
-        y: 0
-        width: 426
-        height: 427
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 45ab4411c07deef4caeb55bc91a3f3a2
-      internalID: -560311251
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: felix_CD_17
-      rect:
-        serializedVersion: 2
-        x: 7242
-        y: 0
-        width: 426
-        height: 427
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c1280a2626ecda4383d04ea9a9fd5fe
-      internalID: -23745988
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: felix_CD_18
-      rect:
-        serializedVersion: 2
-        x: 7668
-        y: 0
-        width: 426
-        height: 427
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ad9f440e4e3c47e4db8b21a4eaa73bb7
-      internalID: -62682679
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: felix_CD_19
-      rect:
-        serializedVersion: 2
-        x: 8094
-        y: 0
-        width: 426
-        height: 427
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 59c46e28419ff5f40ab98f789bfb7cf7
-      internalID: 473903060
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: felix_CD_20
-      rect:
-        serializedVersion: 2
-        x: 8520
-        y: 0
-        width: 426
-        height: 427
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bb381efa355d97b499231f98ebdbd486
-      internalID: -1268904993
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: felix_CD_21
-      rect:
-        serializedVersion: 2
-        x: 8946
-        y: 0
-        width: 426
-        height: 427
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a495b4c7aa33df84bbfa2d851f719b55
-      internalID: -760939226
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: felix_CD_22
-      rect:
-        serializedVersion: 2
-        x: 9372
-        y: 0
-        width: 426
-        height: 427
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 10e22c850a7d61a4eb21adf28c57a275
-      internalID: 1295472195
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: felix_CD_23
-      rect:
-        serializedVersion: 2
-        x: 9798
-        y: 0
-        width: 426
-        height: 427
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3cea6a8eed6cf7b4c8f43cf023ce4f6b
-      internalID: -450592281
+      spriteID: b9bc5728c0f38dc4f84298d62231c4f3
+      internalID: -1564591622
       vertices: []
       indices: 
       edges: []
@@ -792,7 +683,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 518993717bda9be428b4ae7e9cb05447
+    spriteID: eb297b54ef08ce64aaa19aca52571062
     internalID: 0
     vertices: []
     indices: 
@@ -802,30 +693,26 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      felix_CD_0: 1387165829
-      felix_CD_1: -649197277
-      felix_CD_10: 150621243
-      felix_CD_11: 1860903478
-      felix_CD_12: 1904211607
-      felix_CD_13: -1505220466
-      felix_CD_14: 902894762
-      felix_CD_15: 342315310
-      felix_CD_16: -560311251
-      felix_CD_17: -23745988
-      felix_CD_18: -62682679
-      felix_CD_19: 473903060
-      felix_CD_2: -748641435
-      felix_CD_20: -1268904993
-      felix_CD_21: -760939226
-      felix_CD_22: 1295472195
-      felix_CD_23: -450592281
-      felix_CD_3: -556042301
-      felix_CD_4: 2101309029
-      felix_CD_5: 291607408
-      felix_CD_6: -1228076157
-      felix_CD_7: -679062513
-      felix_CD_8: -927064473
-      felix_CD_9: -1015682269
+      Hugo_CD_0: 150221742
+      Hugo_CD_1: 339614455
+      Hugo_CD_10: -2146348911
+      Hugo_CD_11: 188514500
+      Hugo_CD_12: 81620641
+      Hugo_CD_13: 453669204
+      Hugo_CD_14: 631528113
+      Hugo_CD_15: -947822356
+      Hugo_CD_16: 928905095
+      Hugo_CD_17: -1185512391
+      Hugo_CD_18: 542641474
+      Hugo_CD_19: -1564591622
+      Hugo_CD_2: 91342996
+      Hugo_CD_3: 935882204
+      Hugo_CD_4: -1303786338
+      Hugo_CD_5: 914733658
+      Hugo_CD_6: 945138456
+      Hugo_CD_7: 1791569684
+      Hugo_CD_8: -1389008920
+      Hugo_CD_9: -1549341821
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
