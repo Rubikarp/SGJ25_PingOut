@@ -11,7 +11,7 @@ public class CommandDrawer : MonoBehaviour
     public void DrawCommand(GameCommand command)
     {
         timeStock.DeleteChildrens();
-        for(int i = 0; i < command.Duration; i++)
+        for(int i = 0; i < command.commandDuration; i++)
         {
             var newBlock = Instantiate(timeUnit, timeStock);
         }

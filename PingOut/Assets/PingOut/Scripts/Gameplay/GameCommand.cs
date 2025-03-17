@@ -3,9 +3,9 @@ using UnityEngine;
 
 public abstract class GameCommand
 {
-    public int startTick { get; set; }
-    public int endTick { get; set; }
-    public int Duration => endTick - startTick;
+    public int startTime { get; set; } = 0;
+    public int commandDuration { get; set; } = 1;
+    public int EndTime => startTime + commandDuration;
 
     public abstract void RefreshToTick(int relativeTickTime);
     public abstract void RevertCommand();
@@ -122,14 +122,14 @@ public class EmptyCommand : GameCommand
 {
     public override void RefreshToTick(int tickTime) { }
     public override void RevertCommand() { }
-    public override string DebugText() => $"Wait order at {startTick}";
+    public override string DebugText() => $"Wait order at {startTime}";
     public override string DrawText() => "Wait";
 
 
     public EmptyCommand(int startTick)
     {
-        this.startTick = startTick;
-        this.endTick = startTick + 1;
+        this.startTime = startTick;
+        this.commandDuration = 1;
     }
 }
 public class SideFlipCommand : GameCommand
@@ -140,15 +140,15 @@ public class SideFlipCommand : GameCommand
 
     public override void RefreshToTick(int tickTime)
     {
-        if (tickTime < startTick || endTick < tickTime)
+        if (tickTime < startTime || EndTime < tickTime)
         {
             //Nothing
         }
-        else if (tickTime == startTick)
+        else if (tickTime == startTime)
         {
             playerRef.IsInRevers = !switchingForRevers;
         }
-        else if (tickTime == endTick)
+        else if (tickTime == EndTime)
         {
             playerRef.IsInRevers = switchingForRevers;
         }
@@ -158,13 +158,13 @@ public class SideFlipCommand : GameCommand
 
     }
 
-    public override string DebugText() => $"Side flip order at {startTick}";
+    public override string DebugText() => $"Side flip order at {startTime}";
     public override string DrawText() => $"Mode {GetWord()}";
 
     public SideFlipCommand(int startTick, bool switchingForRevers, PlayerController playerRef)
     {
-        this.startTick = startTick;
-        this.endTick = startTick + 1;
+        this.startTime = startTick;
+        this.commandDuration = 1;
 
         this.playerRef = playerRef;
         this.switchingForRevers = switchingForRevers;
@@ -179,15 +179,15 @@ public class MovementCommand : GameCommand
 
     public override void RefreshToTick(int tickTime)
     {
-        if (tickTime < startTick || endTick < tickTime)
+        if (tickTime < startTime || EndTime < tickTime)
         {
             //Nothing
         }
-        else if (tickTime == startTick)
+        else if (tickTime == startTime)
         {
             playerRef.MoveToPos(beginPos);
         }
-        else if (tickTime == endTick)
+        else if (tickTime == EndTime)
         {
             playerRef.MoveToPos(finishPos);
         }
@@ -196,13 +196,13 @@ public class MovementCommand : GameCommand
     {
         playerRef.historyPos = beginPos;
     }
-    public override string DebugText() => $"Move from {beginPos.name} to {finishPos.name} at {startTick}";
+    public override string DebugText() => $"Move from {beginPos.name} to {finishPos.name} at {startTime}";
     public override string DrawText() => $"Move";
 
     public MovementCommand(int startTick, ElementPosition beginPos, ElementPosition endPos, PlayerController controller)
     {
-        this.startTick = startTick;
-        this.endTick = startTick + 1;
+        this.startTime = startTick;
+        this.commandDuration = 1;
 
         this.beginPos = beginPos;
         this.finishPos = endPos;
@@ -210,15 +210,6 @@ public class MovementCommand : GameCommand
         this.playerRef = controller;
     }
 }
-
-public enum EShootType
-{
-    TopSpin = 0,
-    Coupe = 1,
-    Block = 2,
-    Smash = 3,
-}
-
 
 public class ShootCommand : GameCommand
 {
@@ -231,28 +222,28 @@ public class ShootCommand : GameCommand
 
     public override void RefreshToTick(int tickTime)
     {
-        if (tickTime < startTick)
+        if (tickTime < startTime)
         {
             //Nothing
         }
-        if (endTick + 1 < tickTime)
+        if (EndTime + 1 < tickTime)
         {
             ballRef.OutAtPos(finishPos);
         }
-        else if (tickTime == startTick)
+        else if (tickTime == startTime)
         {
             ballRef.MoveToPos(beginPos);
             ballRef.shootType = type;
             AvantageManager.Instance.Addavantage(advantage);
         }
-        else if (tickTime > startTick && tickTime <= endTick)
+        else if (tickTime > startTime && tickTime <= EndTime)
         {
-            float t = (float)(tickTime - startTick) / (float)(endTick - startTick);
+            float t = (float)(tickTime - startTime) / (float)(EndTime - startTime);
             var pos = Vector3.Lerp(beginPos.transform.position, finishPos.transform.position, t);
             ballRef.MoveToPos(pos);
             ballRef.shootType = type;
         }
-        else if (tickTime == endTick)
+        else if (tickTime == EndTime)
         {
             ballRef.MoveToPos(finishPos);
             ballRef.shootType = type;
@@ -264,13 +255,13 @@ public class ShootCommand : GameCommand
         AvantageManager.Instance.Addavantage(-advantage);
 
     }
-    public override string DebugText() => $"Shoot {Enum.GetName(typeof(EShootType), type)} to {finishPos.name} at {startTick}";
+    public override string DebugText() => $"Shoot {Enum.GetName(typeof(EShootType), type)} to {finishPos.name} at {startTime}";
     public override string DrawText() => $"{Enum.GetName(typeof(EShootType), type)}";
 
     public ShootCommand(int startTick, EShootType shootType, int advantage, ElementPosition beginPos, ElementPosition endPos, BallController ballRef)
     {
-        this.startTick = startTick;
-        this.endTick = startTick + ShootDuration(shootType);
+        this.startTime = startTick;
+        this.commandDuration = ShootDuration(shootType);
 
         this.beginPos = beginPos;
         this.finishPos = endPos;
@@ -292,7 +283,7 @@ public class PrepareShootCommand : GameCommand
 
     public override void RefreshToTick(int tickTime)
     {
-        if (tickTime == endTick)
+        if (tickTime == EndTime)
         {
             playerRef.TryShoot(this);
         }
@@ -302,13 +293,13 @@ public class PrepareShootCommand : GameCommand
 
     }
 
-    public override string DebugText() => $"Prepare shoot of type {nameof(shootType)} at {startTick}";
+    public override string DebugText() => $"Prepare shoot of type {nameof(shootType)} at {startTime}";
     public override string DrawText() => $"{Enum.GetName(typeof(EShootType), shootType)}";
 
     public PrepareShootCommand(int startTick, EShootType shootType, PlayerController playerRef)
     {
-        this.startTick = startTick;
-        this.endTick = startTick + ShootPrepDuration(shootType);
+        this.startTime = startTick;
+        this.commandDuration = ShootPrepDuration(shootType);
 
         this.shootType = shootType;
         this.playerRef = playerRef;

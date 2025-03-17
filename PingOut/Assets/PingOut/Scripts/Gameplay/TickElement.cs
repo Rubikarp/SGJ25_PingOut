@@ -51,8 +51,8 @@ public abstract class TickElement : MonoBehaviour
         if (previousTick < currentTick)
         {
             //Move Time Forward
-            var incommingOrder = elementHistory.Where(x => x.startTick <= currentTick).OrderBy(x => x.startTick).ToList();
-            if (incommingOrder.Count <= 0 || incommingOrder.Last().endTick == currentTick)
+            var incommingOrder = elementHistory.Where(x => x.startTime <= currentTick).OrderBy(x => x.startTime).ToList();
+            if (incommingOrder.Count <= 0 || incommingOrder.Last().EndTime == currentTick)
             {
                 if (this is BallController) return;
 
@@ -65,7 +65,7 @@ public abstract class TickElement : MonoBehaviour
         else
         {
             // Move Time Backward
-            var previousOrder = elementHistory.Where(x => x.startTick <= currentTick).OrderBy(x => x.startTick).ToList();
+            var previousOrder = elementHistory.Where(x => x.startTime <= currentTick).OrderBy(x => x.startTime).ToList();
             if (previousOrder.Count <= 0)
             {
                 Debug.Log("No order available" + this.name);
@@ -81,13 +81,13 @@ public abstract class TickElement : MonoBehaviour
     {
         ElementHistory.Add(newCommand);
         DrawDebug();
-        historyTick += newCommand.Duration;
+        historyTick += newCommand.commandDuration;
     }
     public void CancelLastOrder()
     {
         var lastCommand = elementHistory.Last();
         ElementHistory.Remove(lastCommand);
         DrawDebug();
-        historyTick -= lastCommand.Duration;
+        historyTick -= lastCommand.commandDuration;
     }
 }

@@ -85,10 +85,10 @@ public class PlayerController : TickElement
         var shootStartPos = shootData.finishPos;
 
         //TODO : check ball pos + revert ou droit
-        bool touchBallInTime = shootPrep.endTick == historyTick;
+        bool touchBallInTime = shootPrep.EndTime == historyTick;
         if (!touchBallInTime)
         {
-            Debug.LogError($"Good in time start at {historyTick} but ball is here at {shootPrep.endTick}");
+            Debug.LogError($"Good in time start at {historyTick} but ball is here at {shootPrep.EndTime}");
             return;
         }
 

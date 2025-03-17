@@ -19,8 +19,8 @@ public class GameTimeManager : Singleton<GameTimeManager>
 
     private void OnHistoryChange(List<GameCommand> arg0)
     {
-        var playerSum = playerController.elementHistory.Select(command => command.Duration).Sum();
-        var iaSum = playerController.elementHistory.Select(x => x.Duration).Sum();
+        var playerSum = playerController.elementHistory.Select(command => command.commandDuration).Sum();
+        var iaSum = playerController.elementHistory.Select(x => x.commandDuration).Sum();
         OnMaxTimeChange?.Invoke(Mathf.Max(playerSum, iaSum));
     }
 
