@@ -1,12 +1,21 @@
+using NaughtyAttributes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class BallHistory : Singleton<BallHistory>
 {
+    public UnityAction<List<BallCommand>> OnHistoryChange { get => onHistoryChange; set => onHistoryChange = value; }
+    public UnityAction<List<BallCommand>> onHistoryChange;
+
     [Header("Settings")]
     public BallState InitialState = new BallState();
+    public HitCommand InitialCommand = new HitCommand(0, false, EBallPos.Left, EBallPos.Center, EShootType.Coupe);
+
+    public PlayerHistory AvatarHistory => PlayerHistory.Instance;
+    public AdversaireHistory AdversaireHistory => AdversaireHistory.Instance;
 
     [Header("Position Data")]
     public ElementPosition[] PlayerSidePos => new ElementPosition[] { PlayerPosLeft, PlayerPosCenter, PlayerPosRight };
@@ -47,8 +56,7 @@ public class BallHistory : Singleton<BallHistory>
     public BallCommand CommandAtTime(int time)
     {
         if (history.Count == 0) return null;
-
-        time = Mathf.Max(GetHistoryLenght, time);
+        if (GetHistoryLenght < time) return null;
 
         int commandIndex = 0;
         int progressTime = 0;
@@ -59,6 +67,99 @@ public class BallHistory : Singleton<BallHistory>
         }
 
         return history[commandIndex];
+    }
+
+    protected override void Awake()
+    {
+        base.Awake();
+
+        PlayerHistory.Instance.OnHistoryChange += OnPlayerHistoryChange;
+        AdversaireHistory.Instance.onHistoryChange += OnEnnemyHistoryChange;
+    }
+
+    private void OnEnnemyHistoryChange(List<AvatarCommand> arg0) => RecalculateHistory();
+    private void OnPlayerHistoryChange(List<AvatarCommand> arg0) => RecalculateHistory();
+    [Button]
+    private void RecalculateHistory()
+    {
+        var player = PlayerHistory.Instance;
+        var ennemy = AdversaireHistory.Instance;
+
+        //clear ball history
+        History.Clear();
+        History.Add(InitialCommand);
+
+        var maxDuration = Mathf.Max(player.GetHistoryLenght, ennemy.GetHistoryLenght, GetHistoryLenght);
+        for (int time = 0; time < maxDuration; time++)
+        {
+            //Check if there is a command at this time
+            if (CommandAtTime(time) != null) continue;
+
+            HitCommand previousBallCommand = History.FindLast(command => command is HitCommand) as HitCommand;
+
+            var ballState = GetBallAtTime(time);
+            var playerState = player.GetAvatarAtTime(time);
+            var ennemyState = ennemy.GetAvatarAtTime(time);
+
+            if (ballState.isPlayerSide)
+            {
+                var ennemyCommand = ennemy.GetCommandAtTime(time);
+
+                if (ennemyCommand != null || ennemyCommand is not ActionCommand)
+                {
+                    var newCommand = new ScoringCommand(time, ballState.isPlayerSide);
+                    History.Add(newCommand);
+                    return;
+                }
+                else 
+                {
+                    ActionCommand shootCommand = ennemyCommand as ActionCommand;
+
+                    if (shootCommand.EndTime == time)
+                    {
+                        //TODO : Add HitCommand
+
+                        //var newCommand = new HitCommand(time, !ballState.isPlayerSide, ennemyState.currentPos, shootCommand.aimingPos, shootCommand.type);
+                        //History.Add(newCommand);
+                    }
+                    else
+                    {
+                        var newCommand = new ScoringCommand(time, ballState.isPlayerSide);
+                        History.Add(newCommand);
+                        return;
+                    }
+                }
+            }
+            else
+            {
+                var playerCommand = player.GetCommandAtTime(time);
+                if (playerCommand != null || playerCommand is not ActionCommand)
+                {
+                    var newCommand = new ScoringCommand(time, ballState.isPlayerSide);
+                    History.Add(newCommand);
+                    return;
+                }
+                else
+                {
+                    ActionCommand shootCommand = playerCommand as ActionCommand;
+                    if (shootCommand.EndTime == time)
+                    {
+                        //TODO : Add HitCommand
+
+                        //var newCommand = new HitCommand(time, !ballState.isPlayerSide, ballState.aimingPos, shootCommand.aimingPos, shootCommand.type);
+                        //History.Add(newCommand);
+                    }
+                    else
+                    {
+                        var newCommand = new ScoringCommand(time, ballState.isPlayerSide);
+                        History.Add(newCommand);
+                        return;
+                    }
+                }
+            }
+
+            OnHistoryChange?.Invoke(History);
+        }
     }
 }
 
@@ -241,7 +342,7 @@ public class HitCommand : BallCommand
         this.finishPos = finishPos;
     }
 
-    public override string CommandInfo() => $"{Enum.GetName(typeof(EShootType), type)} Hit";
+    public override string CommandInfo() => $"{Enum.GetName(typeof(EShootType), type)}";
     public override string CommandLog() => $"Shoot {Enum.GetName(typeof(EShootType), type)} " +
         $"from {Enum.GetName(typeof(EShootType), beginPos)} " +
         $"to {Enum.GetName(typeof(EShootType), finishPos)}";

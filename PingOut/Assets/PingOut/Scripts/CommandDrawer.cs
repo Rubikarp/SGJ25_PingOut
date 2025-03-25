@@ -8,13 +8,15 @@ public class CommandDrawer : MonoBehaviour
     public Image timeUnit;
     [SerializeField] TextMeshProUGUI text;
 
-    public void DrawCommand(GameCommand command)
+    public void DrawCommand(AvatarCommand command) => DrawCommand(command.duration, command.CommandInfo());
+    public void DrawCommand(BallCommand command) => DrawCommand(command.duration, command.CommandInfo());
+    public void DrawCommand(int duration, string commandInfo)
     {
         timeStock.DeleteChildrens();
-        for(int i = 0; i < command.commandDuration; i++)
+        for (int i = 0; i < duration; i++)
         {
             var newBlock = Instantiate(timeUnit, timeStock);
         }
-        text.text = command.DrawText();
+        text.text = commandInfo;
     }
 }

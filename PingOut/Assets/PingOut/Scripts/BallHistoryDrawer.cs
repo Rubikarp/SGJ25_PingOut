@@ -1,23 +1,20 @@
-using System;
-using System.Collections.Generic;
-using TMPro;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerHistoryDrawer : MonoBehaviour
+public class BallHistoryDrawer : MonoBehaviour
 {
-    public bool isPlayer;
-    public IAvatarHistory playerRef;
+    public BallHistory ballRef;
 
     public RectTransform historyPanel;
     public CommandDrawer commandDrawRefab;
 
     private void Awake()
     {
-        playerRef = isPlayer ? PlayerHistory.Instance : AdversaireHistory.Instance;
-        playerRef.OnHistoryChange += DrawHistory;
+        ballRef = BallHistory.Instance;
+        ballRef.OnHistoryChange += DrawHistory;
     }
 
-    private void DrawHistory(List<AvatarCommand> history)
+    private void DrawHistory(List<BallCommand> history)
     {
         historyPanel.DeleteChildrens();
         foreach (var command in history)
@@ -25,6 +22,5 @@ public class PlayerHistoryDrawer : MonoBehaviour
             var text = Instantiate(commandDrawRefab, historyPanel);
             text.DrawCommand(command);
         }
-
     }
 }
