@@ -56,16 +56,25 @@ public class BallHistory : Singleton<BallHistory>
     public BallCommand CommandAtTime(int time)
     {
         if (history.Count == 0) return null;
-        if (GetHistoryLenght < time) return null;
+        if (GetHistoryLenght <= time) return history.Last();
 
-        int commandIndex = 0;
         int progressTime = 0;
-        while (progressTime < time)
+        int commandIndex = 0;
+        for (commandIndex = 0; commandIndex < history.Count; commandIndex++)
         {
-            progressTime += history[commandIndex].duration;
-            commandIndex++;
+            if (progressTime < time)
+            {
+                progressTime += history[commandIndex].duration;
+                if (commandIndex < history.Count - 1) 
+                {
+                    return history[commandIndex];
+                }
+            }
+            else
+            {
+                return history[commandIndex];
+            }
         }
-
         return history[commandIndex];
     }
 
@@ -75,6 +84,11 @@ public class BallHistory : Singleton<BallHistory>
 
         PlayerHistory.Instance.OnHistoryChange += OnPlayerHistoryChange;
         AdversaireHistory.Instance.onHistoryChange += OnEnnemyHistoryChange;
+    }
+
+    private void Start()
+    {
+        RecalculateHistory();
     }
 
     private void OnEnnemyHistoryChange(List<AvatarCommand> arg0) => RecalculateHistory();
@@ -114,13 +128,14 @@ public class BallHistory : Singleton<BallHistory>
                 else 
                 {
                     ActionCommand shootCommand = ennemyCommand as ActionCommand;
-
                     if (shootCommand.EndTime == time)
                     {
                         //TODO : Add HitCommand
 
-                        //var newCommand = new HitCommand(time, !ballState.isPlayerSide, ennemyState.currentPos, shootCommand.aimingPos, shootCommand.type);
-                        //History.Add(newCommand);
+                        EBallPos? aimingPos = ComputeShootDir(previousBallCommand, playerState.currentPos, playerState.isInReversMode);
+
+                        var newCommand = new HitCommand(time, !ballState.isPlayerSide, previousBallCommand.finishPos, aimingPos, shootCommand.type);
+                        History.Add(newCommand);
                     }
                     else
                     {
@@ -160,6 +175,25 @@ public class BallHistory : Singleton<BallHistory>
 
             OnHistoryChange?.Invoke(History);
         }
+    }
+
+    private EBallPos? ComputeShootDir(HitCommand previousHit, EAvatarPos currentPos, bool isInReversMode)
+    {
+        int ballIndex = (int)currentPos;
+        int userIndex = (int)previousHit.finishPos;
+
+        //If the ball is near the player
+        int ballDistance = ballIndex - userIndex;
+        ballDistance -= Convert.ToInt32(isInReversMode);
+
+        //check if miss the ball
+        if (ballDistance != 0) return null;
+
+        int sendPos = (int)previousHit.finishPos;
+        sendPos += isInReversMode ? 1 : -1;
+        sendPos = Mathf.Clamp(sendPos, 0, 2);
+
+        return (EBallPos)sendPos;
     }
 }
 
